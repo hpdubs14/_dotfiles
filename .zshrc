@@ -41,6 +41,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(git rails3 rails4 ruby sublime brew bundler rvm)
+alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 
 source $ZSH/oh-my-zsh.sh
 
@@ -82,3 +83,10 @@ alias glg='git lg'
 
 alias capd='cap deploy'
 
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+
+
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
