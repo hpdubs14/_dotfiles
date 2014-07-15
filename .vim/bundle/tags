@@ -1,0 +1,965 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+<C-L>	vim-sensible/plugin/sensible.vim	/^  nnoremap <silent> <C-L> :nohlsearch<CR><C-L>$/;"	m
+<C-U>	vim-sensible/plugin/sensible.vim	/^inoremap <C-U> <C-G>u<C-U>$/;"	m
+<Plug>snipMateBack	vim-snipmate/plugin/snipMate.vim	/^inoremap <silent> <Plug>snipMateBack           <C-R>=snipMate#BackwardsSnippet()<CR>$/;"	m
+<Plug>snipMateNextOrTrigger	vim-snipmate/plugin/snipMate.vim	/^inoremap <silent> <Plug>snipMateNextOrTrigger  <C-R>=snipMate#TriggerSnippet()<CR>$/;"	m
+<Plug>snipMateShow	vim-snipmate/plugin/snipMate.vim	/^inoremap <silent> <Plug>snipMateShow           <C-R>=snipMate#ShowAvailableSnips()<CR>$/;"	m
+<Plug>snipMateTrigger	vim-snipmate/plugin/snipMate.vim	/^inoremap <silent> <Plug>snipMateTrigger        <C-R>=snipMate#TriggerSnippet(1)<CR>$/;"	m
+<SID>xx	vim-rails/autoload/rails.vim	/^map <SID>xx <SID>xx$/;"	m
+<cr>	vim-snipmate/ftplugin/snippet.vim	/^vnoremap <buffer> <cr> :RetabSnip<cr>$/;"	m
+Abbrev	vim-rails/autoload/rails.vim	/^function! s:Abbrev(bang,...) abort$/;"	f
+Add	tlib_vim/spec/tlib/list.vim	/^fun! Add(a,b)$/;"	f
+Add	tlib_vim/test/tlib.vim	/^fun! Add(a,b)$/;"	f
+Add	vim-snipmate/autoload/snipMate_python_demo.vim	/^fun! s:Add(dict, line, source, trigger)$/;"	f
+AddBracketExpand	vim-rails/autoload/rails.vim	/^function! s:AddBracketExpand(abbr,expn)$/;"	f
+AddColonExpand	vim-rails/autoload/rails.vim	/^function! s:AddColonExpand(abbr,expn)$/;"	f
+AddParenExpand	vim-rails/autoload/rails.vim	/^function! s:AddParenExpand(abbr,expn,...)$/;"	f
+AddScopeAliases	vim-snipmate/autoload/snipMate.vim	/^fun! s:AddScopeAliases(list)$/;"	f
+AddSelectiveExpand	vim-rails/autoload/rails.vim	/^function! s:AddSelectiveExpand(abbr,pat,expn,...)$/;"	f
+AddTabExpand	vim-rails/autoload/rails.vim	/^function! s:AddTabExpand(abbr,expn)$/;"	f
+Alternate	vim-rails/autoload/rails.vim	/^function! s:Alternate(cmd,line1,line2,count,...)$/;"	f
+BMRU_Push	tlib_vim/autoload/tlib/buffer.vim	/^function! s:BMRU_Push(bnr) "{{{3$/;"	f
+BitwiseComparison	tlib_vim/autoload/tlib/bitwise.vim	/^function! s:BitwiseComparison(num1, num2, rtype, expr) "{{{3$/;"	f
+BufAbbreviations	vim-rails/autoload/rails.vim	/^function! s:BufAbbreviations()$/;"	f
+BufCommands	vim-rails/autoload/rails.vim	/^function! s:BufCommands()$/;"	f
+BufDatabase	vim-rails/autoload/rails.vim	/^function! s:BufDatabase(level, ...)$/;"	f
+BufMappings	vim-rails/autoload/rails.vim	/^function! s:BufMappings()$/;"	f
+BufNavCommands	vim-rails/autoload/rails.vim	/^function! s:BufNavCommands()$/;"	f
+BufProjectionCommands	vim-rails/autoload/rails.vim	/^function! s:BufProjectionCommands()$/;"	f
+BufScriptWrappers	vim-rails/autoload/rails.vim	/^function! s:BufScriptWrappers()$/;"	f
+BuildItem	tlib_vim/autoload/tlib/input.vim	/^function! s:BuildItem(menu, def) "{{{3$/;"	f
+BuildMenu	tlib_vim/autoload/tlib/input.vim	/^function! s:BuildMenu(world) "{{{3$/;"	f
+BuildTabStops	vim-snipmate/autoload/snipMate.vim	/^fun! s:BuildTabStops(snip, lnum, col, indent)$/;"	f
+Bundle	vim-bundler/plugin/bundler.vim	/^function! s:Bundle(bang,arg)$/;"	f
+BundleComplete	vim-bundler/plugin/bundler.vim	/^function! s:BundleComplete(A, L, P) abort$/;"	f
+CachedSnips	vim-snipmate/autoload/snipMate.vim	/^function! s:CachedSnips(file)$/;"	f
+CheckAgentReturnValue	tlib_vim/autoload/tlib/input.vim	/^function! s:CheckAgentReturnValue(name, value) "{{{3$/;"	f
+ChooseSnippet	vim-snipmate/autoload/snipMate.vim	/^fun! s:ChooseSnippet(snippets)$/;"	f
+Close	vim-snipmate/ftplugin/html_snip_helper.vim	/^fun! Close()$/;"	f
+CommandEdit	vim-rails/autoload/rails.vim	/^function! s:CommandEdit(cmd, name, projections, ...)$/;"	f
+CommandList	vim-rails/autoload/rails.vim	/^function! s:CommandList(A,L,P)$/;"	f
+CompareBufferNrByMRU	tlib_vim/autoload/tlib/buffer.vim	/^function! s:CompareBufferNrByMRU(a, b) "{{{3$/;"	f
+CompareBuffernameByBasename	tlib_vim/autoload/tlib/buffer.vim	/^function! s:CompareBuffernameByBasename(a, b) "{{{3$/;"	f
+CompareHash	tlib_vim/spec/tlib/hash.vim	/^function! s:CompareHash(text) "{{{3$/;"	f
+Complete_cd	vim-rails/autoload/rails.vim	/^function! s:Complete_cd(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_console	vim-rails/autoload/rails.vim	/^function! s:Complete_console(A,L,P)$/;"	f
+Complete_destroy	vim-rails/autoload/rails.vim	/^function! s:Complete_destroy(A,L,P)$/;"	f
+Complete_edit	vim-rails/autoload/rails.vim	/^function! s:Complete_edit(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_environments	vim-rails/autoload/rails.vim	/^function! s:Complete_environments(...)$/;"	f
+Complete_find	vim-rails/autoload/rails.vim	/^function! s:Complete_find(ArgLead, CmdLine, CursorPos)$/;"	f
+Complete_generate	vim-rails/autoload/rails.vim	/^function! s:Complete_generate(A,L,P)$/;"	f
+Complete_preview	vim-rails/autoload/rails.vim	/^function! s:Complete_preview(A,L,P)$/;"	f
+Complete_related	vim-rails/autoload/rails.vim	/^function! s:Complete_related(A,L,P)$/;"	f
+Complete_ruby	vim-rails/autoload/rails.vim	/^function! s:Complete_ruby(A,L,P)$/;"	f
+Complete_script	vim-rails/autoload/rails.vim	/^function! s:Complete_script(ArgLead,CmdLine,P)$/;"	f
+Complete_server	vim-rails/autoload/rails.vim	/^function! s:Complete_server(A,L,P)$/;"	f
+Count	vim-snipmate/autoload/snipMate.vim	/^fun! s:Count(haystack, needle)$/;"	f
+CountHelper	tlib_vim/autoload/tlib/string.vim	/^function! s:CountHelper() "{{{3$/;"	f
+CustomComplete	vim-rails/autoload/rails.vim	/^function! s:CustomComplete(A,L,P,cmd)$/;"	f
+Detect	vim-bundler/plugin/bundler.vim	/^function! s:Detect(path) abort$/;"	f
+Edit	vim-rails/autoload/rails.vim	/^function! s:Edit(count,cmd,...)$/;"	f
+EditCallback	tlib_vim/autoload/tlib/input.vim	/^function! s:EditCallback(...) "{{{3$/;"	f
+ExtendKeyMap	tlib_vim/autoload/tlib/input.vim	/^function! s:ExtendKeyMap(world, key_mode, key_handlers) "{{{3$/;"	f
+Extract	vim-rails/autoload/rails.vim	/^function! s:Extract(bang,...) range abort$/;"	f
+Filename	vim-snipmate/autoload/snipMate.vim	/^fun! Filename(...)$/;"	f
+Find	vim-rails/autoload/rails.vim	/^function! s:Find(count,cmd,...)$/;"	f
+FindBundlerRoot	vim-bundler/plugin/bundler.vim	/^function! s:FindBundlerRoot(path) abort$/;"	f
+FormatHelp	tlib_vim/autoload/tlib/World.vim	/^function! s:FormatHelp(help) "{{{3$/;"	f
+FormatHelpItem	tlib_vim/autoload/tlib/World.vim	/^function! s:FormatHelpItem(item, fmt) "{{{3$/;"	f
+GetCmd	tlib_vim/autoload/tlib/vcs.vim	/^function! s:GetCmd(vcstype, cmd)$/;"	f
+GetModdedChar	tlib_vim/autoload/tlib/input.vim	/^function! s:GetModdedChar(world) "{{{3$/;"	f
+GetNthElement	tlib_vim/autoload/tlib/list.vim	/^function! s:GetNthElement(n, lists, default) "{{{3$/;"	f
+GetScopes	vim-snipmate/autoload/snipMate.vim	/^function! s:GetScopes()$/;"	f
+Glob	vim-snipmate/autoload/snipMate.vim	/^	function! s:Glob(path, expr)$/;"	f
+HiDefaults	vim-rails/autoload/rails.vim	/^function! s:HiDefaults()$/;"	f
+Init	tlib_vim/autoload/tlib/input.vim	/^function! s:Init(world, cmd) "{{{3$/;"	f
+InsertSelectedItems	tlib_vim/autoload/tlib/World.vim	/^function! s:InsertSelectedItems(rv, current) "{{{3$/;"	f
+Intersection	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^fun! s:Intersection(a, b)$/;"	f
+Invert	vim-rails/autoload/rails.vim	/^function! s:Invert(bang)$/;"	f
+IsBundlerProject	vim-bundler/plugin/bundler.vim	/^function! s:IsBundlerProject()$/;"	f
+LegacyCommandEdit	vim-rails/autoload/rails.vim	/^function! s:LegacyCommandEdit(cmd, target, prefix, suffix)$/;"	f
+Log	vim-rails/autoload/rails.vim	/^function! s:Log(bang,arg)$/;"	f
+Navcommand	vim-rails/autoload/rails.vim	/^function! s:Navcommand(bang,...)$/;"	f
+Open	vim-bundler/plugin/bundler.vim	/^function! s:Open(cmd,gem,lcd)$/;"	f
+OpenComplete	vim-bundler/plugin/bundler.vim	/^function! s:OpenComplete(A,L,P)$/;"	f
+PopupmenuExists	tlib_vim/autoload/tlib/input.vim	/^function s:PopupmenuExists()$/;"	f
+Preview	vim-rails/autoload/rails.vim	/^function! s:Preview(bang, lnum, uri) abort$/;"	f
+PrintFormat	tlib_vim/autoload/tlib/string.vim	/^function! s:PrintFormat(format, string) "{{{3$/;"	f
+PrintMe	tlib_vim/samples/tlib/input/tlib_input_list.vim	/^function! PrintMe(state, items) "{{{3$/;"	f
+ProcessSnippet	vim-snipmate/autoload/snipMate.vim	/^fun! s:ProcessSnippet(snip)$/;"	f
+ProjectionistDetect	vim-bundler/plugin/bundler.vim	/^function! s:ProjectionistDetect() abort$/;"	f
+PurgeTimestamp	tlib_vim/autoload/tlib/cache.vim	/^function! s:PurgeTimestamp(dir) "{{{3$/;"	f
+QuickFixCmdPostMake	vim-bundler/plugin/bundler.vim	/^function! s:QuickFixCmdPostMake()$/;"	f
+QuickFixCmdPreMake	vim-bundler/plugin/bundler.vim	/^function! s:QuickFixCmdPreMake()$/;"	f
+Rails	vim-rails/plugin/rails.vim	/^command! -bar -bang -nargs=* -complete=dir Rails execute rails#new_app_command(<bang>0,<f-args>)$/;"	c
+RailsDetect	vim-rails/plugin/rails.vim	/^function! RailsDetect(...) abort$/;"	f
+RailsFile	vim-rails/autoload/rails.vim	/^function! RailsFile()$/;"	f
+RailsFilePath	vim-rails/autoload/rails.vim	/^function! RailsFilePath()$/;"	f
+RailsFileType	vim-rails/autoload/rails.vim	/^function! RailsFileType()$/;"	f
+RailsFind	vim-rails/autoload/rails.vim	/^function! s:RailsFind()$/;"	f
+RailsIncludeexpr	vim-rails/autoload/rails.vim	/^function! RailsIncludeexpr()$/;"	f
+RailsIncludefind	vim-rails/autoload/rails.vim	/^function! s:RailsIncludefind(str,...)$/;"	f
+RailsRevision	vim-rails/autoload/rails.vim	/^function! RailsRevision()$/;"	f
+RailsRoot	vim-rails/autoload/rails.vim	/^function! RailsRoot()$/;"	f
+Rake	vim-rails/autoload/rails.vim	/^function! s:Rake(bang,lnum,arg)$/;"	f
+Refresh	vim-rails/autoload/rails.vim	/^function! s:Refresh(bang)$/;"	f
+RefreshBuffer	vim-rails/autoload/rails.vim	/^function! s:RefreshBuffer()$/;"	f
+Related	vim-rails/autoload/rails.vim	/^function! s:Related(cmd,line1,line2,count,...)$/;"	f
+RestoreFrameParams	tlib_vim/autoload/tlib/vim.vim	/^function! s:RestoreFrameParams() "{{{3$/;"	f
+RetabSnip	vim-snipmate/ftplugin/snippet.vim	/^command! -buffer -range=% RetabSnip <line1>,<line2>call snipMate#RetabSnip()$/;"	c
+RewriteFormatString	tlib_vim/autoload/tlib/string.vim	/^function! s:RewriteFormatString(format, pattern, string) "{{{3$/;"	f
+RubyExtract	vim-rails/autoload/rails.vim	/^function! s:RubyExtract(bang, root, before, name) range abort$/;"	f
+RunStateHandlers	tlib_vim/autoload/tlib/input.vim	/^function! s:RunStateHandlers(world) "{{{3$/;"	f
+SaveFrameParams	tlib_vim/autoload/tlib/vim.vim	/^function! s:SaveFrameParams() "{{{3$/;"	f
+SelectOutput	tlib_vim/samples/tlib/input/tlib_input_list.vim	/^function! SelectOutput(ex) "{{{3$/;"	f
+Set	vim-rails/autoload/rails.vim	/^function! s:Set(bang,...)$/;"	f
+SetBasePath	vim-rails/autoload/rails.vim	/^function! s:SetBasePath() abort$/;"	f
+SetOffset	tlib_vim/autoload/tlib/input.vim	/^function! s:SetOffset(world) "{{{3$/;"	f
+SetScrollBind	tlib_vim/autoload/tlib/file.vim	/^function! s:SetScrollBind(world) "{{{3$/;"	f
+SetTimestamp	tlib_vim/autoload/tlib/cache.vim	/^function! s:SetTimestamp(cfile, type) "{{{3$/;"	f
+Setup	vim-bundler/plugin/bundler.vim	/^function! s:Setup(path) abort$/;"	f
+SetupMake	vim-bundler/plugin/bundler.vim	/^function! s:SetupMake() abort$/;"	f
+ShouldPurge	tlib_vim/autoload/tlib/cache.vim	/^function! s:ShouldPurge(partial_filename) "{{{3$/;"	f
+SignId	tlib_vim/autoload/tlib/signs.vim	/^function! s:SignId(item) "{{{3$/;"	f
+SnipMateLoadScopes	vim-snipmate/plugin/snipMate.vim	/^command! -bang -bar -nargs=+ SnipMateLoadScopes$/;"	c
+SnipMateOpenSnippetFiles	vim-snipmate/plugin/snipMate.vim	/^command! SnipMateOpenSnippetFiles call snipMate#OpenSnippetFiles()$/;"	c
+TBrowseOutput	tlib_vim/plugin/02tlib.vim	/^command! -nargs=1 -complete=command TBrowseOutput call tlib#cmd#BrowseOutput(<q-args>)$/;"	c
+TBrowseScriptnames	tlib_vim/plugin/02tlib.vim	/^command! -nargs=0 -complete=command TBrowseScriptnames call$/;"	c
+TKeyArg	tlib_vim/plugin/02tlib.vim	/^command! -nargs=+ TKeyArg exec tlib#arg#Key([<args>])$/;"	c
+TLet	tlib_vim/plugin/02tlib.vim	/^command! -nargs=+ TLet if !exists(matchstr(<q-args>, '^[^=[:space:]]\\+')) | exec 'let '. <q-args> | endif$/;"	c
+TLib	tlib_vim/autoload/tlib/autocmdgroup.vim	/^augroup TLib$/;"	a
+TOVLWrite	vim-addon-mw-utils/autoload/tovl/scratch_buffer.vim	/^augroup TOVLWrite$/;"	a
+TRequire	tlib_vim/plugin/02tlib.vim	/^command! -nargs=+ TRequire let s:require = [<f-args>]$/;"	c
+TScratch	tlib_vim/plugin/02tlib.vim	/^command! -bar -nargs=* -bang TScratch call tlib#scratch#UseScratch({'scratch_split': '<bang>' != '!', <args>})$/;"	c
+TTimeCommand	tlib_vim/plugin/02tlib.vim	/^command! -nargs=1 -complete=command TTimeCommand call tlib#cmd#Time(<q-args>)$/;"	c
+TVarArg	tlib_vim/plugin/02tlib.vim	/^command! -nargs=+ TVarArg exec tlib#arg#Let([<args>])$/;"	c
+TestArgs	tlib_vim/spec/tlib/arg.vim	/^function! TestArgs(...) "{{{3$/;"	f
+TestArgs	tlib_vim/test/tlib.vim	/^function! TestArgs(...) "{{{3$/;"	f
+TestArgs1	tlib_vim/spec/tlib/arg.vim	/^function! TestArgs1(...) "{{{3$/;"	f
+TestArgs1	tlib_vim/test/tlib.vim	/^function! TestArgs1(...) "{{{3$/;"	f
+TestArgs2	tlib_vim/spec/tlib/arg.vim	/^function! TestArgs2(...) "{{{3$/;"	f
+TestArgs2	tlib_vim/test/tlib.vim	/^function! TestArgs2(...) "{{{3$/;"	f
+TestArgs3	tlib_vim/spec/tlib/arg.vim	/^function! TestArgs3(...)$/;"	f
+TestArgs3	tlib_vim/test/tlib.vim	/^function! TestArgs3(...)$/;"	f
+TestGetArg	tlib_vim/spec/tlib/arg.vim	/^function! TestGetArg(...) "{{{3$/;"	f
+TestGetArg	tlib_vim/test/tlib.vim	/^function! TestGetArg(...) "{{{3$/;"	f
+TestGetArg1	tlib_vim/spec/tlib/arg.vim	/^function! TestGetArg1(...) "{{{3$/;"	f
+TestGetArg1	tlib_vim/test/tlib.vim	/^function! TestGetArg1(...) "{{{3$/;"	f
+UndoHighlightLine	tlib_vim/autoload/tlib/buffer.vim	/^function! s:UndoHighlightLine() "{{{3$/;"	f
+abolish_l	vim-rails/plugin/rails.vim	/^function! s:abolish_l(word)$/;"	f
+abolish_setup	vim-rails/plugin/rails.vim	/^function! s:abolish_setup()$/;"	f
+abolish_t	vim-rails/plugin/rails.vim	/^function! s:abolish_t(word)$/;"	f
+add_methods	vim-bundler/plugin/bundler.vim	/^function! s:add_methods(namespace, method_names) abort$/;"	f
+add_methods	vim-rails/autoload/rails.vim	/^function! s:add_methods(namespace, method_names)$/;"	f
+addfilecmds	vim-rails/autoload/rails.vim	/^function! s:addfilecmds(type)$/;"	f
+app_commands	vim-rails/autoload/rails.vim	/^function! s:app_commands() dict abort$/;"	f
+app_dbext_settings	vim-rails/autoload/rails.vim	/^function! s:app_dbext_settings(environment) dict$/;"	f
+app_default_locale	vim-rails/autoload/rails.vim	/^function! s:app_default_locale() dict abort$/;"	f
+app_engines	vim-rails/autoload/rails.vim	/^function! s:app_engines() dict abort$/;"	f
+app_environments	vim-rails/autoload/rails.vim	/^function! s:app_environments() dict$/;"	f
+app_eval	vim-rails/autoload/rails.vim	/^function! s:app_eval(ruby,...) dict abort$/;"	f
+app_execute_rails_command	vim-rails/autoload/rails.vim	/^function! s:app_execute_rails_command(cmd) dict abort$/;"	f
+app_file	vim-rails/autoload/rails.vim	/^function! s:app_file(name) dict abort$/;"	f
+app_find_file	vim-rails/autoload/rails.vim	/^function! s:app_find_file(name, ...) dict abort$/;"	f
+app_gems	vim-rails/autoload/rails.vim	/^function! s:app_gems() dict abort$/;"	f
+app_generator_command	vim-rails/autoload/rails.vim	/^function! s:app_generator_command(bang,...) dict$/;"	f
+app_generators	vim-rails/autoload/rails.vim	/^function! s:app_generators() dict abort$/;"	f
+app_has	vim-rails/autoload/rails.vim	/^function! s:app_has(feature) dict$/;"	f
+app_has_file	vim-rails/autoload/rails.vim	/^function! s:app_has_file(file) dict$/;"	f
+app_has_gem	vim-rails/autoload/rails.vim	/^function! s:app_has_gem(gem) dict abort$/;"	f
+app_has_path	vim-rails/autoload/rails.vim	/^function! s:app_has_path(path) dict$/;"	f
+app_lightweight_ruby_eval	vim-rails/autoload/rails.vim	/^function! s:app_lightweight_ruby_eval(ruby,...) dict abort$/;"	f
+app_migration	vim-rails/autoload/rails.vim	/^function! s:app_migration(file) dict$/;"	f
+app_named_route_file	vim-rails/autoload/rails.vim	/^function! s:app_named_route_file(route) dict abort$/;"	f
+app_output_command	vim-rails/autoload/rails.vim	/^function! s:app_output_command(count, code) dict$/;"	f
+app_path	vim-rails/autoload/rails.vim	/^function! s:app_path(...) dict$/;"	f
+app_prepare_rails_command	vim-rails/autoload/rails.vim	/^function! s:app_prepare_rails_command(cmd) dict abort$/;"	f
+app_projections	vim-rails/autoload/rails.vim	/^function! s:app_projections() dict abort$/;"	f
+app_rake_command	vim-rails/autoload/rails.vim	/^function! s:app_rake_command(...) dict abort$/;"	f
+app_rake_tasks	vim-rails/autoload/rails.vim	/^function! s:app_rake_tasks() dict abort$/;"	f
+app_relglob	vim-rails/autoload/rails.vim	/^function! s:app_relglob(path,glob,...) dict$/;"	f
+app_route_names	vim-rails/autoload/rails.vim	/^function! s:app_route_names() dict abort$/;"	f
+app_ruby_command	vim-rails/autoload/rails.vim	/^function! s:app_ruby_command(cmd) dict abort$/;"	f
+app_ruby_script_command	vim-rails/autoload/rails.vim	/^function! s:app_ruby_script_command(cmd) dict abort$/;"	f
+app_script_command	vim-rails/autoload/rails.vim	/^function! s:app_script_command(bang,...) dict$/;"	f
+app_server_binding	vim-rails/autoload/rails.vim	/^function! s:app_server_binding() dict abort$/;"	f
+app_server_command	vim-rails/autoload/rails.vim	/^function! s:app_server_command(bang,arg) dict$/;"	f
+app_start_rails_command	vim-rails/autoload/rails.vim	/^function! s:app_start_rails_command(cmd, ...) dict abort$/;"	f
+app_stylesheet_suffix	vim-rails/autoload/rails.vim	/^function! s:app_stylesheet_suffix() dict abort$/;"	f
+app_tags_command	vim-rails/autoload/rails.vim	/^function! s:app_tags_command() dict$/;"	f
+app_test_suites	vim-rails/autoload/rails.vim	/^function! s:app_test_suites() dict$/;"	f
+app_user_assertions	vim-rails/autoload/rails.vim	/^function! s:app_user_assertions() dict$/;"	f
+app_user_classes	vim-rails/autoload/rails.vim	/^function! s:app_user_classes() dict$/;"	f
+autocamelize	vim-rails/autoload/rails.vim	/^function! s:autocamelize(files,test)$/;"	f
+b:bar	tlib_vim/spec/tlib/var.vim	/^let b:bar = 3$/;"	v
+b:bar	tlib_vim/test/tlib.vim	/^let b:bar = 3$/;"	v
+buf_utils#GotoBuf	vim-addon-mw-utils/autoload/buf_utils.vim	/^fun! buf_utils#GotoBuf(buf_identifier, opts)$/;"	f
+buffer	vim-bundler/plugin/bundler.vim	/^function! s:buffer(...) abort$/;"	f
+buffer_alter_paths	vim-bundler/plugin/bundler.vim	/^function! s:buffer_alter_paths() dict abort$/;"	f
+buffer_app	vim-rails/autoload/rails.vim	/^function! s:buffer_app() dict abort$/;"	f
+buffer_getline	vim-rails/autoload/rails.vim	/^function! s:buffer_getline(...) dict abort$/;"	f
+buffer_getvar	vim-bundler/plugin/bundler.vim	/^function! s:buffer_getvar(var) dict abort$/;"	f
+buffer_getvar	vim-rails/autoload/rails.vim	/^function! s:buffer_getvar(varname) dict abort$/;"	f
+buffer_lines	vim-rails/autoload/rails.vim	/^function! s:buffer_lines() dict abort$/;"	f
+buffer_name	vim-rails/autoload/rails.vim	/^function! s:buffer_name() dict abort$/;"	f
+buffer_number	vim-rails/autoload/rails.vim	/^function! s:buffer_number() dict abort$/;"	f
+buffer_path	vim-rails/autoload/rails.vim	/^function! s:buffer_path() dict abort$/;"	f
+buffer_project	vim-bundler/plugin/bundler.vim	/^function! s:buffer_project() dict abort$/;"	f
+buffer_setvar	vim-bundler/plugin/bundler.vim	/^function! s:buffer_setvar(var,value) dict abort$/;"	f
+buffer_setvar	vim-rails/autoload/rails.vim	/^function! s:buffer_setvar(varname, val) dict abort$/;"	f
+buffer_type_name	vim-rails/autoload/rails.vim	/^function! s:buffer_type_name(...) dict abort$/;"	f
+build_path_option	vim-bundler/plugin/bundler.vim	/^function! s:build_path_option(paths,suffix) abort$/;"	f
+bundler	vim-bundler/plugin/bundler.vim	/^augroup bundler$/;"	a
+bundler#buffer	vim-bundler/plugin/bundler.vim	/^function! bundler#buffer(...) abort$/;"	f
+bundler#complete	vim-bundler/plugin/bundler.vim	/^function! bundler#complete(A, L, P, ...) abort$/;"	f
+bundler#project	vim-bundler/plugin/bundler.vim	/^function! bundler#project(...) abort$/;"	f
+bundler_make	vim-bundler/plugin/bundler.vim	/^augroup bundler_make$/;"	a
+bundler_path	vim-bundler/plugin/bundler.vim	/^augroup bundler_path$/;"	a
+bundler_syntax	vim-bundler/plugin/bundler.vim	/^augroup bundler_syntax$/;"	a
+bundler_utility	vim-bundler/plugin/bundler.vim	/^augroup bundler_utility$/;"	a
+cache_clear	vim-rails/autoload/rails.vim	/^function! s:cache_clear(...) dict$/;"	f
+cache_get	vim-rails/autoload/rails.vim	/^function! s:cache_get(...) dict$/;"	f
+cache_has	vim-rails/autoload/rails.vim	/^function! s:cache_has(key) dict$/;"	f
+cache_needs	vim-rails/autoload/rails.vim	/^function! s:cache_needs(key) dict$/;"	f
+cache_set	vim-rails/autoload/rails.vim	/^function! s:cache_set(key,value) dict$/;"	f
+cached_file_contents#CachedFileContents	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^function! cached_file_contents#CachedFileContents(file, func, ...) abort$/;"	f
+cached_file_contents#ClearScanCache	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^fun! cached_file_contents#ClearScanCache()$/;"	f
+cached_file_contents#Test	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^fun! cached_file_contents#Test()$/;"	f
+color_efm	vim-rails/autoload/rails.vim	/^function! s:color_efm(pre, before, after)$/;"	f
+combine_projections	vim-rails/autoload/rails.vim	/^function! s:combine_projections(dest, src, ...) abort$/;"	f
+command	vim-bundler/plugin/bundler.vim	/^function! s:command(definition) abort$/;"	f
+completion_filter	vim-bundler/plugin/bundler.vim	/^function! s:completion_filter(results,A)$/;"	f
+completion_filter	vim-rails/autoload/rails.vim	/^function! s:completion_filter(results, A, ...) abort$/;"	f
+controller	vim-rails/autoload/rails.vim	/^function! s:controller(...)$/;"	f
+controllerEdit	vim-rails/autoload/rails.vim	/^function! s:controllerEdit(cmd,...)$/;"	f
+controllerList	vim-rails/autoload/rails.vim	/^function! s:controllerList(A,L,P)$/;"	f
+crc_vim_table	tlib_vim/scripts/create_crc_table.rb	/^def crc_vim_table$/;"	f
+current_compiler	vim-bundler/compiler/bundler.vim	/^let current_compiler = "bundler"$/;"	v
+d.Continue	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.Continue()$/;"	f
+d.CurrentItem	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.CurrentItem()$/;"	f
+d.DoContinue	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.DoContinue(v)$/;"	f
+d.FilterFromKeyboard	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.FilterFromKeyboard(keep, start, ...)$/;"	f
+d.FilterItem	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.FilterItem(items, filter, cursorAt)$/;"	f
+d.FilteredItems	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.FilteredItems()$/;"	f
+d.MapToOriginal	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.MapToOriginal(v)$/;"	f
+d.NewBufferAndInit	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.NewBufferAndInit()$/;"	f
+d.RemoveFilters	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.RemoveFilters()$/;"	f
+d.SelectByIdOrFilter	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.SelectByIdOrFilter()$/;"	f
+d.ShowAppliedFilters	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.ShowAppliedFilters()$/;"	f
+d.ToggleAlignment	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.ToggleAlignment()$/;"	f
+d.UpdateDisplay	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^  fun d.UpdateDisplay()$/;"	f
+debug	vim-rails/autoload/rails.vim	/^function! s:debug(str)$/;"	f
+define_commands	vim-bundler/plugin/bundler.vim	/^function! s:define_commands()$/;"	f
+define_navcommand	vim-rails/autoload/rails.vim	/^function! s:define_navcommand(name, projection, ...) abort$/;"	f
+djump	vim-rails/autoload/rails.vim	/^function! s:djump(def)$/;"	f
+dotcmp	vim-rails/autoload/rails.vim	/^function! s:dotcmp(i1, i2)$/;"	f
+edit	vim-rails/autoload/rails.vim	/^function! s:edit(cmd,file,...)$/;"	f
+editcmdfor	vim-rails/autoload/rails.vim	/^function! s:editcmdfor(cmd)$/;"	f
+endof	vim-rails/autoload/rails.vim	/^function! s:endof(lnum)$/;"	f
+endswith	vim-rails/autoload/rails.vim	/^function! s:endswith(string,suffix)$/;"	f
+env_reload#ReloadEnv	vim-addon-mw-utils/autoload/env_reload.vim	/^fun! env_reload#ReloadEnv(bash_export_command_output)$/;"	f
+environment	vim-rails/autoload/rails.vim	/^function! s:environment()$/;"	f
+error	vim-rails/autoload/rails.vim	/^function! s:error(str)$/;"	f
+error	vim-rails/plugin/rails.vim	/^function! s:error(str)$/;"	f
+escarg	vim-rails/autoload/rails.vim	/^function! s:escarg(p)$/;"	f
+esccmd	vim-rails/autoload/rails.vim	/^function! s:esccmd(p)$/;"	f
+expand_placeholders	vim-rails/autoload/rails.vim	/^function! s:expand_placeholders(string, placeholders)$/;"	f
+extend_projection	vim-rails/autoload/rails.vim	/^function! s:extend_projection(dest, src)$/;"	f
+extractdbvar	vim-rails/autoload/rails.vim	/^function! s:extractdbvar(str,arg)$/;"	f
+file_getline	vim-rails/autoload/rails.vim	/^function! s:file_getline(lnum,...) dict abort$/;"	f
+file_lines	vim-rails/autoload/rails.vim	/^function! s:file_lines() dict abort$/;"	f
+file_name	vim-rails/autoload/rails.vim	/^function! s:file_name() dict abort$/;"	f
+file_path	vim-rails/autoload/rails.vim	/^function! s:file_path() dict abort$/;"	f
+findamethod	vim-rails/autoload/rails.vim	/^function! s:findamethod(func,repl)$/;"	f
+findasymbol	vim-rails/autoload/rails.vim	/^function! s:findasymbol(sym,repl)$/;"	f
+findcmdfor	vim-rails/autoload/rails.vim	/^function! s:findcmdfor(cmd)$/;"	f
+findedit	vim-rails/autoload/rails.vim	/^function! s:findedit(cmd,files,...) abort$/;"	f
+findfromview	vim-rails/autoload/rails.vim	/^function! s:findfromview(func,repl)$/;"	f
+findit	vim-rails/autoload/rails.vim	/^function! s:findit(pat,repl)$/;"	f
+findlayout	vim-rails/autoload/rails.vim	/^function! s:findlayout(name)$/;"	f
+findview	vim-rails/autoload/rails.vim	/^function! s:findview(name)$/;"	f
+fixturesEdit	vim-rails/autoload/rails.vim	/^function! s:fixturesEdit(cmd,...)$/;"	f
+fixturesList	vim-rails/autoload/rails.vim	/^function! s:fixturesList(A,L,P)$/;"	f
+fnameescape	vim-bundler/plugin/bundler.vim	/^function! s:fnameescape(file) abort$/;"	f
+fnameescape	vim-rails/autoload/rails.vim	/^function! s:fnameescape(file) abort$/;"	f
+format	vim-rails/autoload/rails.vim	/^function! s:format()$/;"	f
+funcref#Call	vim-addon-mw-utils/autoload/funcref.vim	/^function! funcref#Call(...)$/;"	f
+funcref#Function	vim-addon-mw-utils/autoload/funcref.vim	/^function! funcref#Function(name,...)$/;"	f
+function	vim-bundler/plugin/bundler.vim	/^function! s:function(name) abort$/;"	f
+function	vim-rails/autoload/rails.vim	/^function! s:function(name)$/;"	f
+function	vim-rails/plugin/rails.vim	/^function! s:function(name)$/;"	f
+fuzzyglob	vim-rails/autoload/rails.vim	/^function! s:fuzzyglob(arg)$/;"	f
+g:autoloaded_rails	vim-rails/autoload/rails.vim	/^let g:autoloaded_rails = '5.1'$/;"	v
+g:bar	tlib_vim/spec/tlib/var.vim	/^let g:bar = 2$/;"	v
+g:bar	tlib_vim/test/tlib.vim	/^let g:bar = 2$/;"	v
+g:dispatch_compilers	vim-bundler/plugin/bundler.vim	/^  let g:dispatch_compilers = {}$/;"	v
+g:dispatch_compilers	vim-bundler/plugin/bundler.vim	/^let g:dispatch_compilers['bundle exec'] = ''$/;"	v
+g:foo	tlib_vim/spec/tlib/var.vim	/^let g:foo = 1$/;"	v
+g:foo	tlib_vim/test/tlib.vim	/^let g:foo = 1$/;"	v
+g:loaded_bundler	vim-bundler/plugin/bundler.vim	/^let g:loaded_bundler = 1$/;"	v
+g:loaded_rails	vim-rails/plugin/rails.vim	/^let g:loaded_rails = 1$/;"	v
+g:loaded_sensible	vim-sensible/plugin/sensible.vim	/^  let g:loaded_sensible = 1$/;"	v
+g:rails#rake_errorformat	vim-rails/autoload/rails.vim	/^let g:rails#rake_errorformat = '%D(in\\ %f),'$/;"	v
+g:rails_no_abbreviations	vim-rails/autoload/rails.vim	/^  let g:rails_no_abbreviations = 1$/;"	v
+g:snipMate	vim-snipmate/autoload/snipMate.vim	/^  let g:snipMate = {}$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate = {}$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.cpp =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.cu =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.eruby =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.html =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.mxml =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.objc =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.php =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.ur =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^	let g:snipMate.scope_aliases.xhtml =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^let g:snipMate.scope_aliases = get(g:snipMate, 'scope_aliases', {})$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^let g:snipMate['get_scopes'] = get(g:snipMate, 'get_scopes', funcref#Function('return split(&ft,"\\\\.")+[&syntax, "_"]'))$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^let g:snipMate['get_snippets'] = get(g:snipMate, 'get_snippets', funcref#Function("snipMate#GetSnippets"))$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^let g:snipMate['no_match_completion_feedkeys_chars'] =$/;"	v
+g:snipMate	vim-snipmate/plugin/snipMate.vim	/^let g:snipMate['snippet_dirs'] = get(g:snipMate, 'snippet_dirs', funcref#Function('return split(&runtimepath,",")'))$/;"	v
+g:snipMateSources	vim-snipmate/plugin/snipMate.vim	/^  let g:snipMateSources = {}$/;"	v
+g:snipMateSources	vim-snipmate/plugin/snipMate.vim	/^  let g:snipMateSources['default'] = funcref#Function('snipMate#DefaultPool')$/;"	v
+g:snips_author	vim-snipmate/plugin/snipMate.vim	/^	let g:snips_author = 'Me'$/;"	v
+g:spec_tlib_list	tlib_vim/spec/tlib/input.vim	/^let g:spec_tlib_list = [10, 20, 30, 40, 'a50', 'aa60', 'b70', 'ba80', 90]$/;"	v
+g:tlib#cmd#last_output	tlib_vim/autoload/tlib/cmd.vim	/^let g:tlib#cmd#last_output = []$/;"	v
+g:tlib#date#dayshift	tlib_vim/autoload/tlib/date.vim	/^let g:tlib#date#dayshift = 60 * 60 * 24$/;"	v
+g:tlib#hash#use_adler32	tlib_vim/autoload/tlib/hash.vim	/^    let g:tlib#hash#use_adler32 = ''   "{{{2$/;"	v
+g:tlib#hash#use_crc32	tlib_vim/autoload/tlib/hash.vim	/^    let g:tlib#hash#use_crc32 = ''   "{{{2$/;"	v
+g:tlib#hash#use_crc32	tlib_vim/spec/tlib/hash.vim	/^let g:tlib#hash#use_crc32 = 'ruby'$/;"	v
+g:tlib#hash#use_crc32	tlib_vim/spec/tlib/hash.vim	/^let g:tlib#hash#use_crc32 = 'vim'$/;"	v
+g:tlib#hash#use_crc32	tlib_vim/spec/tlib/hash.vim	/^let g:tlib#hash#use_crc32 = g:tlib_hash_use_crc32$/;"	v
+g:tlib#sys#check_cygpath	tlib_vim/autoload/tlib/sys.vim	/^    let g:tlib#sys#check_cygpath = g:tlib#sys#windows && tlib#sys#IsExecutable('cygpath')   "{{{2$/;"	v
+g:tlib#sys#cygwin_expr	tlib_vim/autoload/tlib/sys.vim	/^    let g:tlib#sys#cygwin_expr = '"bash -c ''". escape(%s, "''\\\\") ."''"'   "{{{2$/;"	v
+g:tlib#sys#cygwin_path_rx	tlib_vim/autoload/tlib/sys.vim	/^    let g:tlib#sys#cygwin_path_rx = '\/cygwin\/'   "{{{2$/;"	v
+g:tlib#sys#null	tlib_vim/autoload/tlib/sys.vim	/^    let g:tlib#sys#null = g:tlib#sys#windows ? 'NUL' : (filereadable('\/dev\/null') ? '\/dev\/null' : '')    "{{{2$/;"	v
+g:tlib#sys#windows	tlib_vim/autoload/tlib/sys.vim	/^    let g:tlib#sys#windows = &shell !~ 'sh' && (has('win16') || has('win32') || has('win64'))   "{{{2$/;"	v
+g:tlib#vcs#executables	tlib_vim/autoload/tlib/vcs.vim	/^            let g:tlib#vcs#executables[s:cmd] = executable(s:cmd1) ? s:cmd1 : ''$/;"	v
+g:tlib#vim#simalt_maximize	tlib_vim/autoload/tlib/vim.vim	/^        let g:tlib#vim#simalt_maximize = 'x'   "{{{2$/;"	v
+g:tlib#vim#simalt_restore	tlib_vim/autoload/tlib/vim.vim	/^        let g:tlib#vim#simalt_restore = 'r'   "{{{2$/;"	v
+g:tlib#vim#use_vimtweak	tlib_vim/autoload/tlib/vim.vim	/^        let g:tlib#vim#use_vimtweak = 0   "{{{2$/;"	v
+g:tlib#vim#use_wmctrl	tlib_vim/autoload/tlib/vim.vim	/^        let g:tlib#vim#use_wmctrl = executable('wmctrl')  "{{{2$/;"	v
+g:tlib_hash_use_crc32	tlib_vim/spec/tlib/hash.vim	/^let g:tlib_hash_use_crc32 = g:tlib#hash#use_crc32$/;"	v
+getlist	vim-rails/autoload/rails.vim	/^function! s:getlist(arg, key)$/;"	f
+glob#Glob	vim-addon-mw-utils/autoload/glob.vim	/^fun! glob#Glob(pattern, ...)$/;"	f
+grab_visual	vim-snipmate/plugin/snipMate.vim	/^function! s:grab_visual()$/;"	f
+gsub	vim-bundler/plugin/bundler.vim	/^function! s:gsub(str,pat,rep) abort$/;"	f
+gsub	vim-rails/autoload/rails.vim	/^function! s:gsub(str,pat,rep)$/;"	f
+helpermethods	vim-rails/autoload/rails.vim	/^function! s:helpermethods()$/;"	f
+initOpenURL	vim-rails/autoload/rails.vim	/^function! s:initOpenURL()$/;"	f
+invertrange	vim-rails/autoload/rails.vim	/^function! s:invertrange(beg,end)$/;"	f
+javascriptEdit	vim-rails/autoload/rails.vim	/^function! s:javascriptEdit(cmd,...)$/;"	f
+javascriptList	vim-rails/autoload/rails.vim	/^function! s:javascriptList(A,L,P)$/;"	f
+lastmethod	vim-rails/autoload/rails.vim	/^function! s:lastmethod(...)$/;"	f
+lastmethodline	vim-rails/autoload/rails.vim	/^function! s:lastmethodline(start)$/;"	f
+lastopeningline	vim-rails/autoload/rails.vim	/^function! s:lastopeningline(pattern,limit,start)$/;"	f
+layoutEdit	vim-rails/autoload/rails.vim	/^function! s:layoutEdit(cmd,...)$/;"	f
+layoutList	vim-rails/autoload/rails.vim	/^function! s:layoutList(A,L,P)$/;"	f
+linepeak	vim-rails/autoload/rails.vim	/^function! s:linepeak()$/;"	f
+load_scopes	vim-snipmate/plugin/snipMate.vim	/^function! s:load_scopes(bang, ...)$/;"	f
+loaded_snips	vim-snipmate/plugin/snipMate.vim	/^let loaded_snips = 1$/;"	v
+loaded_tlib	tlib_vim/plugin/02tlib.vim	/^let loaded_tlib = 112$/;"	v
+loaded_tlib_TestChild_autoload	tlib_vim/autoload/tlib/TestChild.vim	/^let loaded_tlib_TestChild_autoload = 1$/;"	v
+loaded_tlib_Test_autoload	tlib_vim/autoload/tlib/Test.vim	/^let loaded_tlib_Test_autoload = 1$/;"	v
+loaded_tlib_char_autoload	tlib_vim/autoload/tlib/char.vim	/^let loaded_tlib_char_autoload = 1$/;"	v
+loaded_tlib_cmd_autoload	tlib_vim/autoload/tlib/cmd.vim	/^let loaded_tlib_cmd_autoload = 1$/;"	v
+loaded_tlib_comments_autoload	tlib_vim/autoload/tlib/comments.vim	/^let loaded_tlib_comments_autoload = 1$/;"	v
+loaded_tlib_dir_autoload	tlib_vim/autoload/tlib/dir.vim	/^let loaded_tlib_dir_autoload = 1$/;"	v
+loaded_tlib_eval_autoload	tlib_vim/autoload/tlib/eval.vim	/^let loaded_tlib_eval_autoload = 1$/;"	v
+loaded_tlib_file_autoload	tlib_vim/autoload/tlib/file.vim	/^let loaded_tlib_file_autoload = 1$/;"	v
+loaded_tlib_hook_autoload	tlib_vim/autoload/tlib/hook.vim	/^let loaded_tlib_hook_autoload = 1$/;"	v
+loaded_tlib_object_autoload	tlib_vim/autoload/tlib/Object.vim	/^let loaded_tlib_object_autoload = 1$/;"	v
+loaded_tlib_progressbar_autoload	tlib_vim/autoload/tlib/progressbar.vim	/^let loaded_tlib_progressbar_autoload = 1$/;"	v
+loaded_tlib_rx_autoload	tlib_vim/autoload/tlib/rx.vim	/^let loaded_tlib_rx_autoload = 1$/;"	v
+loaded_tlib_scratch_autoload	tlib_vim/autoload/tlib/scratch.vim	/^let loaded_tlib_scratch_autoload = 1$/;"	v
+loaded_tlib_string_autoload	tlib_vim/autoload/tlib/string.vim	/^let loaded_tlib_string_autoload = 1$/;"	v
+loaded_tlib_syntax_autoload	tlib_vim/autoload/tlib/syntax.vim	/^let loaded_tlib_syntax_autoload = 1$/;"	v
+loaded_tlib_tab_autoload	tlib_vim/autoload/tlib/tab.vim	/^let loaded_tlib_tab_autoload = 1$/;"	v
+loaded_tlib_tag_autoload	tlib_vim/autoload/tlib/tag.vim	/^let loaded_tlib_tag_autoload = 1$/;"	v
+loaded_tlib_time_autoload	tlib_vim/autoload/tlib/time.vim	/^let loaded_tlib_time_autoload = 1$/;"	v
+loaded_tlib_var_autoload	tlib_vim/autoload/tlib/var.vim	/^let loaded_tlib_var_autoload = 1$/;"	v
+loaded_tlib_win_autoload	tlib_vim/autoload/tlib/win.vim	/^let loaded_tlib_win_autoload = 1$/;"	v
+localeEdit	vim-rails/autoload/rails.vim	/^function! s:localeEdit(cmd,...)$/;"	f
+localeList	vim-rails/autoload/rails.vim	/^function! s:localeList(A,L,P)$/;"	f
+make	vim-rails/autoload/rails.vim	/^function! s:make(bang, args, ...)$/;"	f
+map_if_not_mapped	vim-snipmate/after/plugin/snipMate.vim	/^function! s:map_if_not_mapped(lhs, rhs, mode)$/;"	f
+match_type	vim-rails/autoload/rails.vim	/^function! s:match_type(type,...)$/;"	f
+matchcursor	vim-rails/autoload/rails.vim	/^function! s:matchcursor(pat)$/;"	f
+mextargs	vim-rails/autoload/rails.vim	/^function! s:mextargs(str,num)$/;"	f
+migrationEdit	vim-rails/autoload/rails.vim	/^function! s:migrationEdit(cmd,...)$/;"	f
+migrationList	vim-rails/autoload/rails.vim	/^function! s:migrationList(A,L,P)$/;"	f
+migspc	vim-rails/autoload/rails.vim	/^function! s:migspc(line)$/;"	f
+mkeep	vim-rails/autoload/rails.vim	/^function! s:mkeep(str)$/;"	f
+model	vim-rails/autoload/rails.vim	/^function! s:model(...)$/;"	f
+pathjoin	vim-rails/autoload/rails.vim	/^function! s:pathjoin(...) abort$/;"	f
+pathsplit	vim-rails/autoload/rails.vim	/^function! s:pathsplit(path) abort$/;"	f
+pop_command	vim-bundler/plugin/bundler.vim	/^function! s:pop_command()$/;"	f
+pop_command	vim-rails/autoload/rails.vim	/^function! s:pop_command()$/;"	f
+project	vim-bundler/plugin/bundler.vim	/^function! s:project(...) abort$/;"	f
+project_alter_buffer_paths	vim-bundler/plugin/bundler.vim	/^function! s:project_alter_buffer_paths() dict abort$/;"	f
+project_gems	vim-bundler/plugin/bundler.vim	/^function! s:project_gems() dict abort$/;"	f
+project_has	vim-bundler/plugin/bundler.vim	/^function! s:project_has(gem) dict abort$/;"	f
+project_locked	vim-bundler/plugin/bundler.vim	/^function! s:project_locked() dict abort$/;"	f
+project_path	vim-bundler/plugin/bundler.vim	/^function! s:project_path(...) dict abort$/;"	f
+project_paths	vim-bundler/plugin/bundler.vim	/^function! s:project_paths(...) dict abort$/;"	f
+project_projections_list	vim-bundler/plugin/bundler.vim	/^function! s:project_projections_list() dict abort$/;"	f
+project_sorted	vim-bundler/plugin/bundler.vim	/^function! s:project_sorted() dict abort$/;"	f
+project_versions	vim-bundler/plugin/bundler.vim	/^function! s:project_versions() dict abort$/;"	f
+projection_pairs	vim-rails/autoload/rails.vim	/^function! s:projection_pairs(options)$/;"	f
+prototype.AssessName	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.AssessName(world, name) dict "{{{3$/;"	f
+prototype.BuildTableList	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.BuildTableList() dict "{{{3$/;"	f
+prototype.CleanFilter	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.CleanFilter(filter) dict "{{{3$/;"	f
+prototype.CleanFilter	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^function! s:prototype.CleanFilter(filter) dict "{{{3$/;"	f
+prototype.CleanFilter	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.CleanFilter(filter) dict "{{{3$/;"	f
+prototype.CleanFilter	tlib_vim/autoload/tlib/Filter_glob.vim	/^function! s:prototype.CleanFilter(filter) dict "{{{3$/;"	f
+prototype.CleanFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.CleanFilter(filter) dict "{{{3$/;"	f
+prototype.ClearAllMarks	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.ClearAllMarks() dict "{{{3$/;"	f
+prototype.CloseScratch	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.CloseScratch(...) dict "{{{3$/;"	f
+prototype.CurrentItem	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.CurrentItem() dict "{{{3$/;"	f
+prototype.DisplayFilter	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.DisplayFilter(filter) dict "{{{3$/;"	f
+prototype.DisplayFilter	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.DisplayFilter(filter) dict "{{{3$/;"	f
+prototype.DisplayFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.DisplayFilter() dict "{{{3$/;"	f
+prototype.DisplayFormat	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.DisplayFormat(list) dict "{{{3$/;"	f
+prototype.DisplayHelp	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.DisplayHelp() dict "{{{3$/;"	f
+prototype.DisplayList	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.DisplayList(...) dict "{{{3$/;"	f
+prototype.DisplayListMark	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.DisplayListMark(x, y, mark) dict "{{{3$/;"	f
+prototype.Dummy	tlib_vim/autoload/tlib/Test.vim	/^function! s:prototype.Dummy() dict "{{{3$/;"	f
+prototype.Dummy	tlib_vim/autoload/tlib/TestChild.vim	/^function! s:prototype.Dummy() dict "{{{3$/;"	f
+prototype.Extend	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.Extend(dictionary) dict "{{{3$/;"	f
+prototype.FilterIsEmpty	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.FilterIsEmpty() dict "{{{3$/;"	f
+prototype.FilterRxPrefix	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.FilterRxPrefix() dict "{{{3$/;"	f
+prototype.FilterRxPrefix	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.FilterRxPrefix() dict "{{{3$/;"	f
+prototype.FollowCursor	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.FollowCursor() dict "{{{3$/;"	f
+prototype.FormatArgs	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.FormatArgs(format_string, arg) dict "{{{3$/;"	f
+prototype.FormatFilename	tlib_vim/autoload/tlib/World.vim	/^    function! s:prototype.FormatFilename(file) dict "{{{3$/;"	f
+prototype.FormatName	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.FormatName(cache, format, value) dict "{{{3$/;"	f
+prototype.GetBaseIdx	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetBaseIdx(idx) dict "{{{3$/;"	f
+prototype.GetBaseIdx0	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetBaseIdx0(idx) dict "{{{3$/;"	f
+prototype.GetBaseItem	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetBaseItem(idx) dict "{{{3$/;"	f
+prototype.GetItem	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetItem(idx) dict "{{{3$/;"	f
+prototype.GetLineIdx	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetLineIdx(lnum) dict "{{{3$/;"	f
+prototype.GetListIdx	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetListIdx(baseidx) dict "{{{3$/;"	f
+prototype.GetResize	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetResize(size) dict "{{{3$/;"	f
+prototype.GetRx	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetRx(filter) dict "{{{3$/;"	f
+prototype.GetRx0	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetRx0(...) dict "{{{3$/;"	f
+prototype.GetSelectedItems	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.GetSelectedItems(current) dict "{{{3$/;"	f
+prototype.Help	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.Help(world) dict "{{{3$/;"	f
+prototype.Help	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^function! s:prototype.Help(world) dict "{{{3$/;"	f
+prototype.Help	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.Help(world) dict "{{{3$/;"	f
+prototype.Help	tlib_vim/autoload/tlib/Filter_glob.vim	/^function! s:prototype.Help(world) dict "{{{3$/;"	f
+prototype.Highlight_filename	tlib_vim/autoload/tlib/World.vim	/^    function! s:prototype.Highlight_filename() dict "{{{3$/;"	f
+prototype.Inherit	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.Inherit(object) dict "{{{3$/;"	f
+prototype.Init	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.Init(world) dict "{{{3$/;"	f
+prototype.Init	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^function! s:prototype.Init(world) dict "{{{3$/;"	f
+prototype.Init	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.Init(world) dict "{{{3$/;"	f
+prototype.InitFormatName	tlib_vim/autoload/tlib/World.vim	/^    function! s:prototype.InitFormatName() dict "{{{3 $/;"	f
+prototype.InitHelp	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.InitHelp() dict "{{{3$/;"	f
+prototype.Initialize	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Initialize() dict "{{{3$/;"	f
+prototype.IsA	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.IsA(class) dict "{{{3$/;"	f
+prototype.IsRelated	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.IsRelated(object) dict "{{{3$/;"	f
+prototype.IsValidFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.IsValidFilter() dict "{{{3$/;"	f
+prototype.Leave	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Leave() dict "{{{3$/;"	f
+prototype.MarkCurrent	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.MarkCurrent(y) dict "{{{3$/;"	f
+prototype.Match	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.Match(world, text) dict "{{{3$/;"	f
+prototype.MatchBaseIdx	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.MatchBaseIdx(idx) dict "{{{3$/;"	f
+prototype.New	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.New(...) dict "{{{3$/;"	f
+prototype.PopFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.PopFilter() dict "{{{3$/;"	f
+prototype.Pretty	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.Pretty(filter) dict "{{{3$/;"	f
+prototype.PrintLines	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.PrintLines() dict "{{{3$/;"	f
+prototype.PushFrontFilter	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.PushFrontFilter(world, char) dict "{{{3$/;"	f
+prototype.PushFrontFilter	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^function! s:prototype.PushFrontFilter(world, char) dict "{{{3$/;"	f
+prototype.PushFrontFilter	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.PushFrontFilter(world, char) dict "{{{3$/;"	f
+prototype.PushFrontFilter	tlib_vim/autoload/tlib/Filter_glob.vim	/^function! s:prototype.PushFrontFilter(world, char) dict "{{{3$/;"	f
+prototype.PushFrontFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.PushFrontFilter(char) dict "{{{3$/;"	f
+prototype.PushHelp	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.PushHelp(...) dict "{{{3$/;"	f
+prototype.Query	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Query() dict "{{{3$/;"	f
+prototype.ReduceFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.ReduceFilter() dict "{{{3$/;"	f
+prototype.ReduceFrontFilter	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.ReduceFrontFilter(world) dict "{{{3$/;"	f
+prototype.ReduceFrontFilter	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.ReduceFrontFilter(world) dict "{{{3$/;"	f
+prototype.Reset	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Reset(...) dict "{{{3$/;"	f
+prototype.ResetSelected	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.ResetSelected() dict "{{{3$/;"	f
+prototype.Resize	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Resize(hsize, vsize) dict "{{{3$/;"	f
+prototype.RespondTo	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.RespondTo(name) dict "{{{3$/;"	f
+prototype.RestoreOrigin	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.RestoreOrigin(...) dict "{{{3$/;"	f
+prototype.Retrieve	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Retrieve(anyway) dict "{{{3$/;"	f
+prototype.ScrollToOffset	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.ScrollToOffset() dict "{{{3$/;"	f
+prototype.SelectItem	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SelectItem(mode, index) dict "{{{3$/;"	f
+prototype.SelectItemsByNames	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SelectItemsByNames(mode, items) dict "{{{3$/;"	f
+prototype.SetBaseItem	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetBaseItem(idx, item) dict "{{{3$/;"	f
+prototype.SetFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetFilter() dict "{{{3$/;"	f
+prototype.SetFrontFilter	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! s:prototype.SetFrontFilter(world, pattern) dict "{{{3$/;"	f
+prototype.SetFrontFilter	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^function! s:prototype.SetFrontFilter(world, pattern) dict "{{{3$/;"	f
+prototype.SetFrontFilter	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! s:prototype.SetFrontFilter(world, pattern) dict "{{{3$/;"	f
+prototype.SetFrontFilter	tlib_vim/autoload/tlib/Filter_glob.vim	/^function! s:prototype.SetFrontFilter(world, pattern) dict "{{{3$/;"	f
+prototype.SetFrontFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetFrontFilter(pattern) dict "{{{3$/;"	f
+prototype.SetInitialFilter	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetInitialFilter(filter) dict "{{{3$/;"	f
+prototype.SetMatchMode	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetMatchMode(match_mode) dict "{{{3$/;"	f
+prototype.SetOffset	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetOffset() dict "{{{3$/;"	f
+prototype.SetOrigin	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetOrigin(...) dict "{{{3$/;"	f
+prototype.SetPrefIdx	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetPrefIdx() dict "{{{3$/;"	f
+prototype.SetStatusline	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SetStatusline(query) dict "{{{3$/;"	f
+prototype.Set_display_format	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Set_display_format(value) dict "{{{3$/;"	f
+prototype.Set_highlight_filename	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Set_highlight_filename() dict "{{{3$/;"	f
+prototype.Super	tlib_vim/autoload/tlib/Object.vim	/^function! s:prototype.Super(method, arglist) dict "{{{3$/;"	f
+prototype.Suspend	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.Suspend() dict "{{{3$/;"	f
+prototype.SwitchWindow	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.SwitchWindow(where) dict "{{{3$/;"	f
+prototype.UseFilenameIndicators	tlib_vim/autoload/tlib/World.vim	/^    function! s:prototype.UseFilenameIndicators() dict "{{{3$/;"	f
+prototype.UseInputListScratch	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.UseInputListScratch() dict "{{{3$/;"	f
+prototype.UseScratch	tlib_vim/autoload/tlib/World.vim	/^function! s:prototype.UseScratch() dict "{{{3$/;"	f
+push_chdir	vim-bundler/plugin/bundler.vim	/^function! s:push_chdir()$/;"	f
+push_chdir	vim-rails/autoload/rails.vim	/^function! s:push_chdir(...)$/;"	f
+rails#app	vim-rails/autoload/rails.vim	/^function! rails#app(...)$/;"	f
+rails#buffer	vim-rails/autoload/rails.vim	/^function! rails#buffer(...)$/;"	f
+rails#buffer_setup	vim-rails/autoload/rails.vim	/^function! rails#buffer_setup() abort$/;"	f
+rails#buffer_syntax	vim-rails/autoload/rails.vim	/^function! rails#buffer_syntax()$/;"	f
+rails#cache_clear	vim-rails/autoload/rails.vim	/^function! rails#cache_clear(...)$/;"	f
+rails#camelize	vim-rails/autoload/rails.vim	/^function! rails#camelize(str)$/;"	f
+rails#complete_rake	vim-rails/autoload/rails.vim	/^function! rails#complete_rake(A,L,P)$/;"	f
+rails#get_binding_for	vim-rails/autoload/rails.vim	/^function! rails#get_binding_for(pid)$/;"	f
+rails#json_parse	vim-rails/autoload/rails.vim	/^function! rails#json_parse(string) abort$/;"	f
+rails#lencmp	vim-rails/autoload/rails.vim	/^function! rails#lencmp(i1, i2) abort$/;"	f
+rails#log_setup	vim-rails/autoload/rails.vim	/^function! rails#log_setup() abort$/;"	f
+rails#log_syntax	vim-rails/autoload/rails.vim	/^function! rails#log_syntax()$/;"	f
+rails#new_app_command	vim-rails/autoload/rails.vim	/^function! rails#new_app_command(bang,...) abort$/;"	f
+rails#pluralize	vim-rails/autoload/rails.vim	/^function! rails#pluralize(word)$/;"	f
+rails#singularize	vim-rails/autoload/rails.vim	/^function! rails#singularize(word)$/;"	f
+rails#underscore	vim-rails/autoload/rails.vim	/^function! rails#underscore(str)$/;"	f
+railsPluginAbolish	vim-rails/plugin/rails.vim	/^augroup railsPluginAbolish$/;"	a
+railsPluginAuto	vim-rails/autoload/rails.vim	/^augroup railsPluginAuto$/;"	a
+railsPluginDetect	vim-rails/plugin/rails.vim	/^augroup railsPluginDetect$/;"	a
+readable_absolute	vim-rails/autoload/rails.vim	/^function! s:readable_absolute() dict abort$/;"	f
+readable_alternate	vim-rails/autoload/rails.vim	/^function! s:readable_alternate(...) dict abort$/;"	f
+readable_alternate_candidates	vim-rails/autoload/rails.vim	/^function! s:readable_alternate_candidates(...) dict abort$/;"	f
+readable_app	vim-rails/autoload/rails.vim	/^function! s:readable_app() dict abort$/;"	f
+readable_calculate_file_type	vim-rails/autoload/rails.vim	/^function! s:readable_calculate_file_type() dict abort$/;"	f
+readable_controller_name	vim-rails/autoload/rails.vim	/^function! s:readable_controller_name(...) dict abort$/;"	f
+readable_default_rake_task	vim-rails/autoload/rails.vim	/^function! s:readable_default_rake_task(...) dict abort$/;"	f
+readable_define_pattern	vim-rails/autoload/rails.vim	/^function! s:readable_define_pattern() dict abort$/;"	f
+readable_end_of	vim-rails/autoload/rails.vim	/^function! s:readable_end_of(lnum) dict abort$/;"	f
+readable_find_affinity	vim-rails/autoload/rails.vim	/^function! s:readable_find_affinity() dict abort$/;"	f
+readable_format	vim-rails/autoload/rails.vim	/^function! s:readable_format(start) dict abort$/;"	f
+readable_last_method	vim-rails/autoload/rails.vim	/^function! s:readable_last_method(start) dict abort$/;"	f
+readable_last_method_line	vim-rails/autoload/rails.vim	/^function! s:readable_last_method_line(start) dict abort$/;"	f
+readable_last_opening_line	vim-rails/autoload/rails.vim	/^function! s:readable_last_opening_line(start,pattern,limit) dict abort$/;"	f
+readable_line_count	vim-rails/autoload/rails.vim	/^function! s:readable_line_count() dict abort$/;"	f
+readable_model_name	vim-rails/autoload/rails.vim	/^function! s:readable_model_name(...) dict abort$/;"	f
+readable_open_command	vim-rails/autoload/rails.vim	/^function! s:readable_open_command(cmd, argument, name, projections) dict abort$/;"	f
+readable_preview_urls	vim-rails/autoload/rails.vim	/^function! s:readable_preview_urls(lnum) dict abort$/;"	f
+readable_projected	vim-rails/autoload/rails.vim	/^function! s:readable_projected(key, ...) dict abort$/;"	f
+readable_related	vim-rails/autoload/rails.vim	/^function! s:readable_related(...) dict abort$/;"	f
+readable_relative	vim-rails/autoload/rails.vim	/^function! s:readable_relative() dict abort$/;"	f
+readable_resolve_layout	vim-rails/autoload/rails.vim	/^function! s:readable_resolve_layout(name, ...) dict abort$/;"	f
+readable_resolve_view	vim-rails/autoload/rails.vim	/^function! s:readable_resolve_view(name,...) dict abort$/;"	f
+readable_runner_command	vim-rails/autoload/rails.vim	/^function! s:readable_runner_command(bang, count, arg) dict abort$/;"	f
+readable_spec	vim-rails/autoload/rails.vim	/^function! s:readable_spec() dict abort$/;"	f
+readable_test_file	vim-rails/autoload/rails.vim	/^function! s:readable_test_file() dict abort$/;"	f
+readable_test_file_candidates	vim-rails/autoload/rails.vim	/^function! s:readable_test_file_candidates() dict abort$/;"	f
+readable_type_name	vim-rails/autoload/rails.vim	/^function! s:readable_type_name(...) dict abort$/;"	f
+readfile	vim-rails/autoload/rails.vim	/^function! s:readfile(path,...)$/;"	f
+relglob	vim-rails/autoload/rails.vim	/^function! s:relglob(...)$/;"	f
+resetomnicomplete	vim-rails/autoload/rails.vim	/^function! s:resetomnicomplete()$/;"	f
+rquote	vim-rails/autoload/rails.vim	/^function! s:rquote(str)$/;"	f
+s	tlib_vim/spec/tlib/rx.vim	/^    let s = printf('%sfoo%sbar%s', c, c, c)$/;"	v
+s	tlib_vim/test/tlib.vim	/^    let s = printf('%sfoo%sbar%s', c, c, c)$/;"	v
+s:Help	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^let s:Help = s:prototype.Help$/;"	v
+s:Help	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^let s:Help = s:prototype.Help$/;"	v
+s:Help	tlib_vim/autoload/tlib/Filter_glob.vim	/^let s:Help = s:prototype.Help$/;"	v
+s:abstract_prototype	vim-bundler/plugin/bundler.vim	/^let s:abstract_prototype = {}$/;"	v
+s:app_prototype	vim-rails/autoload/rails.vim	/^let s:app_prototype = {}$/;"	v
+s:app_prototype	vim-rails/autoload/rails.vim	/^let s:app_prototype.cache = s:cache_prototype$/;"	v
+s:apps	vim-rails/autoload/rails.vim	/^  let s:apps = {}$/;"	v
+s:bar	tlib_vim/spec/tlib/var.vim	/^let s:bar = 4$/;"	v
+s:bar	tlib_vim/test/tlib.vim	/^let s:bar = 4$/;"	v
+s:base	tlib_vim/autoload/tlib/signs.vim	/^let s:base = 2327$/;"	v
+s:bmru	tlib_vim/autoload/tlib/buffer.vim	/^let s:bmru = []$/;"	v
+s:buffer_prototype	vim-bundler/plugin/bundler.vim	/^let s:buffer_prototype = {}$/;"	v
+s:buffer_prototype	vim-rails/autoload/rails.vim	/^let s:buffer_prototype = {}$/;"	v
+s:c	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:c['cache_dir'] = get(s:c, 'cache_dir', expand('$HOME').'\/.vim-cache')$/;"	v
+s:c	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:c['scanned_files'] = get(s:c, 'scanned_files', {})$/;"	v
+s:c	vim-addon-mw-utils/autoload/glob.vim	/^let s:c['glob_cache'] = get(s:c, 'glob_cache', {})$/;"	v
+s:c	vim-addon-mw-utils/autoload/glob.vim	/^let s:c['regex_ignore_directory'] = '\\<\\%([_.]darcs\\|\\.git\\|.svn\\|.hg\\|.cvs\\|.bzr\\)\\>'$/;"	v
+s:cache	vim-snipmate/autoload/snipMate.vim	/^let s:cache = {}$/;"	v
+s:cache_prototype	vim-rails/autoload/rails.vim	/^let s:cache_prototype = {'dict': {}}$/;"	v
+s:cmd1	tlib_vim/autoload/tlib/vcs.vim	/^            let s:cmd1 = printf(g:tlib#vcs#check, s:cmd)$/;"	v
+s:commands	vim-bundler/plugin/bundler.vim	/^let s:commands = []$/;"	v
+s:cpo_save	vim-bundler/compiler/bundler.vim	/^let s:cpo_save = &cpo$/;"	v
+s:cygwin	tlib_vim/autoload/tlib/sys.vim	/^let s:cygwin = {}$/;"	v
+s:d	vim-snipmate/autoload/snipMate.vim	/^let s:d = nr2char(31)$/;"	v
+s:define_cache_file	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:define_cache_file = "let this_dir = s:c['cache_dir'].'\/cached-file-contents' | let cache_file = expand(this_dir.'\/'.substitute(string([func_as_string, a:file]),'[[\\\\]{}:\/\\\\,''\\"# ]\\\\+','_','g'))"$/;"	v
+s:did_snip_helper	vim-snipmate/ftplugin/html_snip_helper.vim	/^let s:did_snip_helper = 1$/;"	v
+s:dir_stack	tlib_vim/autoload/tlib/dir.vim	/^let s:dir_stack = []$/;"	v
+s:efm_generate	vim-rails/autoload/rails.vim	/^let s:efm_generate =$/;"	v
+s:executables	tlib_vim/autoload/tlib/sys.vim	/^let s:executables = {}$/;"	v
+s:file	vim-rails/autoload/rails.vim	/^let s:file = expand('<sfile>:p')$/;"	v
+s:file_prototype	vim-rails/autoload/rails.vim	/^let s:file_prototype = {}$/;"	v
+s:format	tlib_vim/autoload/tlib/progressbar.vim	/^let s:format = []$/;"	v
+s:fullscreen	tlib_vim/autoload/tlib/vim.vim	/^let s:fullscreen = 0$/;"	v
+s:glob_cache	vim-addon-mw-utils/autoload/glob.vim	/^let s:glob_cache = s:c['glob_cache']$/;"	v
+s:id_counter	tlib_vim/autoload/tlib/Object.vim	/^let s:id_counter = 0$/;"	v
+s:laststatus	tlib_vim/autoload/tlib/progressbar.vim	/^let s:laststatus = []$/;"	v
+s:max	tlib_vim/autoload/tlib/progressbar.vim	/^let s:max = []$/;"	v
+s:native_filenames	tlib_vim/autoload/tlib/sys.vim	/^let s:native_filenames = {}$/;"	v
+s:overwrite	vim-snipmate/after/plugin/snipMate.vim	/^		let s:overwrite = 0$/;"	v
+s:overwrite	vim-snipmate/after/plugin/snipMate.vim	/^		let s:overwrite = maparg('<S-Tab>', 'i') ==? '<Plug>SuperTabBackward'$/;"	v
+s:overwrite	vim-snipmate/after/plugin/snipMate.vim	/^		let s:overwrite = maparg('<Tab>', 'i') ==? '<Plug>SuperTabForward'$/;"	v
+s:project_prototype	vim-bundler/plugin/bundler.vim	/^let s:project_prototype = {}$/;"	v
+s:projections_for_gems	vim-rails/autoload/rails.vim	/^let s:projections_for_gems = {}$/;"	v
+s:projects	vim-bundler/plugin/bundler.vim	/^let s:projects = {}$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_cnf.vim	/^let s:prototype = tlib#Object#New({'_class': ['Filter_cnf'], 'name': 'cnf'}) "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_cnf.vim	/^let s:prototype.highlight = g:tlib#input#higroup$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^let s:prototype = tlib#Filter_cnf#New({'_class': ['Filter_cnfd'], 'name': 'cnfd'}) "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^let s:prototype.highlight = g:tlib#input#higroup$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^let s:prototype = tlib#Filter_cnf#New({'_class': ['Filter_fuzzy'], 'name': 'fuzzy'}) "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^let s:prototype.highlight = g:tlib#input#higroup$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_glob.vim	/^let s:prototype = tlib#Filter_cnf#New({'_class': ['Filter_glob'], 'name': 'glob'}) "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Filter_glob.vim	/^let s:prototype.highlight = g:tlib#input#higroup$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Object.vim	/^let s:prototype  = {'_class': ['object'], '_super': [], '_id': 0} "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/Test.vim	/^let s:prototype = tlib#Object#New({'_class': ['Test']}) "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/TestChild.vim	/^let s:prototype = tlib#Test#New({'_class': ['TestChild']}) "{{{2$/;"	v
+s:prototype	tlib_vim/autoload/tlib/World.vim	/^let s:prototype = tlib#Object#New({$/;"	v
+s:readable_prototype	vim-rails/autoload/rails.vim	/^let s:readable_prototype = {}$/;"	v
+s:register	tlib_vim/autoload/tlib/signs.vim	/^let s:register = {}$/;"	v
+s:restoreframecmd	tlib_vim/autoload/tlib/vim.vim	/^let s:restoreframecmd = ''$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/comments.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/map.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/normal.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/notify.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/paragraph.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/signs.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/syntax.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/autoload/tlib/textobjects.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/plugin/02tlib.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/arg.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/file.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/input.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/list.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/rx.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/string.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/url.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	tlib_vim/spec/tlib/var.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	vim-snipmate/after/plugin/snipMate.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	vim-snipmate/plugin/snipMate.vim	/^let s:save_cpo = &cpo$/;"	v
+s:scanned_files	vim-addon-mw-utils/autoload/cached_file_contents.vim	/^let s:scanned_files = s:c['scanned_files']$/;"	v
+s:scriptfile	tlib_vim/spec/tlib/hash.vim	/^    let s:scriptfile = matchstr(s:script, '^\\s*\\d\\+:\\s\\+\\zs.*$')$/;"	v
+s:scriptlines	tlib_vim/spec/tlib/hash.vim	/^        let s:scriptlines = readfile(s:scriptfile)$/;"	v
+s:sid	vim-rails/autoload/rails.vim	/^let s:sid = s:sub(maparg("<SID>xx"),'xx$','')$/;"	v
+s:state	tlib_vim/samples/tlib/input/tlib_input_list.vim	/^let s:state = {$/;"	v
+s:state_proto	vim-snipmate/autoload/snipMate.vim	/^let s:state_proto = {}$/;"	v
+s:statusline	tlib_vim/autoload/tlib/progressbar.vim	/^let s:statusline = []$/;"	v
+s:timestamp	tlib_vim/autoload/tlib/progressbar.vim	/^let s:timestamp = -1$/;"	v
+s:timestamps	tlib_vim/autoload/tlib/cache.vim	/^let s:timestamps = {}$/;"	v
+s:value	tlib_vim/autoload/tlib/progressbar.vim	/^let s:value = []$/;"	v
+s:view_types	vim-rails/autoload/rails.vim	/^let s:view_types = split('rhtml,erb,rxml,builder,rjs,haml',',')$/;"	v
+s:width	tlib_vim/autoload/tlib/progressbar.vim	/^let s:width = []$/;"	v
+scanlineforuris	vim-rails/autoload/rails.vim	/^function! s:scanlineforuris(line)$/;"	f
+schemaEdit	vim-rails/autoload/rails.vim	/^function! s:schemaEdit(cmd,...)$/;"	f
+schemaList	vim-rails/autoload/rails.vim	/^function! s:schemaList(A,L,P)$/;"	f
+selectiveexpand	vim-rails/autoload/rails.vim	/^function! s:selectiveexpand(pat,good,default,...)$/;"	f
+setuplock	vim-bundler/plugin/bundler.vim	/^function! s:setuplock()$/;"	f
+shellesc	vim-bundler/plugin/bundler.vim	/^function! s:shellesc(arg) abort$/;"	f
+shellslash	vim-bundler/plugin/bundler.vim	/^function! s:shellslash(path)$/;"	f
+sname	vim-rails/autoload/rails.vim	/^function! s:sname()$/;"	f
+snipMate#BackwardsSnippet	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#BackwardsSnippet()$/;"	f
+snipMate#CanBeTriggered	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#CanBeTriggered()$/;"	f
+snipMate#DefaultPool	vim-snipmate/autoload/snipMate.vim	/^function! snipMate#DefaultPool(scopes, trigger, result)$/;"	f
+snipMate#GetSnippetFiles	vim-snipmate/autoload/snipMate.vim	/^function! snipMate#GetSnippetFiles(mustExist, scopes, trigger)$/;"	f
+snipMate#GetSnippets	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#GetSnippets(scopes, trigger)$/;"	f
+snipMate#GetSnippetsForWordBelowCursor	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#GetSnippetsForWordBelowCursor(word, exact)$/;"	f
+snipMate#GetSnippetsForWordBelowCursorForComplete	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#GetSnippetsForWordBelowCursorForComplete(word)$/;"	f
+snipMate#OpenSnippetFiles	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#OpenSnippetFiles()$/;"	f
+snipMate#ReadSnippetsFile	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#ReadSnippetsFile(file)$/;"	f
+snipMate#RetabSnip	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#RetabSnip() range$/;"	f
+snipMate#ScopesByFile	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#ScopesByFile()$/;"	f
+snipMate#SetByPath	vim-snipmate/autoload/snipMate.vim	/^function! snipMate#SetByPath(dict, trigger, path, snippet) abort$/;"	f
+snipMate#ShowAvailableSnips	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#ShowAvailableSnips()$/;"	f
+snipMate#TriggerSnippet	vim-snipmate/autoload/snipMate.vim	/^function! snipMate#TriggerSnippet(...)$/;"	f
+snipMate#WordBelowCursor	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#WordBelowCursor()$/;"	f
+snipMate#expandSnip	vim-snipmate/autoload/snipMate.vim	/^fun! snipMate#expandSnip(snip, col)$/;"	f
+snipMate_python_demo#Activate	vim-snipmate/autoload/snipMate_python_demo.vim	/^fun! snipMate_python_demo#Activate()$/;"	f
+snipMate_python_demo#FunctionsFromCurrentFileAndTags	vim-snipmate/autoload/snipMate_python_demo.vim	/^fun! snipMate_python_demo#FunctionsFromCurrentFileAndTags(scopes, trigger, result)$/;"	f
+specEdit	vim-rails/autoload/rails.vim	/^function! s:specEdit(cmd,...) abort$/;"	f
+specList	vim-rails/autoload/rails.vim	/^function! s:specList(A,L,P)$/;"	f
+split	vim-rails/autoload/rails.vim	/^function! s:split(arg, ...)$/;"	f
+startswith	vim-rails/autoload/rails.vim	/^function! s:startswith(string,prefix)$/;"	f
+state_proto.jump_stop	vim-snipmate/autoload/snipMate.vim	/^function! s:state_proto.jump_stop(backwards)$/;"	f
+state_proto.remove	vim-snipmate/autoload/snipMate.vim	/^fun! s:state_proto.remove()$/;"	f
+state_proto.select_word	vim-snipmate/autoload/snipMate.vim	/^function! s:state_proto.select_word()$/;"	f
+state_proto.set_stop	vim-snipmate/autoload/snipMate.vim	/^function! s:state_proto.set_stop(stop)$/;"	f
+state_proto.update_changes	vim-snipmate/autoload/snipMate.vim	/^function! s:state_proto.update_changes()$/;"	f
+state_proto.update_stops	vim-snipmate/autoload/snipMate.vim	/^function! s:state_proto.update_stops()$/;"	f
+state_proto.update_vars	vim-snipmate/autoload/snipMate.vim	/^function! s:state_proto.update_vars(change)$/;"	f
+stylesheetEdit	vim-rails/autoload/rails.vim	/^function! s:stylesheetEdit(cmd,...)$/;"	f
+stylesheetList	vim-rails/autoload/rails.vim	/^function! s:stylesheetList(A,L,P)$/;"	f
+sub	vim-bundler/plugin/bundler.vim	/^function! s:sub(str,pat,rep) abort$/;"	f
+sub	vim-rails/autoload/rails.vim	/^function! s:sub(str,pat,rep)$/;"	f
+syntaxfile	vim-bundler/plugin/bundler.vim	/^function! s:syntaxfile()$/;"	f
+syntaxlock	vim-bundler/plugin/bundler.vim	/^function! s:syntaxlock()$/;"	f
+test	tlib_vim/test/tlib.vim	/^let test = tlib#Test#New()$/;"	v
+test1	tlib_vim/test/tlib.vim	/^let test1 = tlib#Test#New()$/;"	v
+testc	tlib_vim/test/tlib.vim	/^let testc = tlib#TestChild#New()$/;"	v
+testworld	tlib_vim/test/tlib.vim	/^let testworld = tlib#World#New()$/;"	v
+throw	vim-bundler/plugin/bundler.vim	/^function! s:throw(string) abort$/;"	f
+tiny_cmd#Get	vim-addon-mw-utils/autoload/tiny_cmd.vim	/^fun! tiny_cmd#Get(nr)$/;"	f
+tiny_cmd#Pop	vim-addon-mw-utils/autoload/tiny_cmd.vim	/^fun! tiny_cmd#Pop(nr)$/;"	f
+tiny_cmd#Put	vim-addon-mw-utils/autoload/tiny_cmd.vim	/^fun! tiny_cmd#Put(a)$/;"	f
+tlib#Filter_cnf#New	tlib_vim/autoload/tlib/Filter_cnf.vim	/^function! tlib#Filter_cnf#New(...) "{{{3$/;"	f
+tlib#Filter_cnfd#New	tlib_vim/autoload/tlib/Filter_cnfd.vim	/^function! tlib#Filter_cnfd#New(...) "{{{3$/;"	f
+tlib#Filter_fuzzy#New	tlib_vim/autoload/tlib/Filter_fuzzy.vim	/^function! tlib#Filter_fuzzy#New(...) "{{{3$/;"	f
+tlib#Filter_glob#New	tlib_vim/autoload/tlib/Filter_glob.vim	/^function! tlib#Filter_glob#New(...) "{{{3$/;"	f
+tlib#Object#Methods	tlib_vim/autoload/tlib/Object.vim	/^function! tlib#Object#Methods(object, ...) "{{{3$/;"	f
+tlib#Object#New	tlib_vim/autoload/tlib/Object.vim	/^function! tlib#Object#New(...) "{{{3$/;"	f
+tlib#Test#New	tlib_vim/autoload/tlib/Test.vim	/^function! tlib#Test#New(...) "{{{3$/;"	f
+tlib#TestChild#New	tlib_vim/autoload/tlib/TestChild.vim	/^function! tlib#TestChild#New(...) "{{{3$/;"	f
+tlib#World#New	tlib_vim/autoload/tlib/World.vim	/^function! tlib#World#New(...)$/;"	f
+tlib#agent#AND	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#AND(world, selected) "{{{3$/;"	f
+tlib#agent#CompleteAgentNames	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#CompleteAgentNames(ArgLead, CmdLine, CursorPos)$/;"	f
+tlib#agent#Copy	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Copy(world, selected) "{{{3$/;"	f
+tlib#agent#CopyItems	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#CopyItems(world, selected) "{{{3$/;"	f
+tlib#agent#Cut	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Cut(world, selected) "{{{3$/;"	f
+tlib#agent#Debug	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Debug(world, selected) "{{{3$/;"	f
+tlib#agent#DeleteItems	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#DeleteItems(world, selected) "{{{3$/;"	f
+tlib#agent#DoAtLine	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#DoAtLine(world, selected) "{{{3$/;"	f
+tlib#agent#Down	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Down(world, selected, ...) "{{{3$/;"	f
+tlib#agent#DownN	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#DownN(world, selected) "{{{3$/;"	f
+tlib#agent#EditFile	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#EditFile(world, selected) "{{{3$/;"	f
+tlib#agent#EditFileInSplit	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#EditFileInSplit(world, selected) "{{{3$/;"	f
+tlib#agent#EditFileInTab	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#EditFileInTab(world, selected) "{{{3$/;"	f
+tlib#agent#EditFileInVSplit	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#EditFileInVSplit(world, selected) "{{{3$/;"	f
+tlib#agent#EditItem	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#EditItem(world, selected) "{{{3$/;"	f
+tlib#agent#EditReturnValue	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#EditReturnValue(world, rv) "{{{3$/;"	f
+tlib#agent#End	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#End(world, selected) "{{{3$/;"	f
+tlib#agent#ExecAgentByName	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ExecAgentByName(world, selected) "{{{3$/;"	f
+tlib#agent#Exit	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Exit(world, selected) "{{{3$/;"	f
+tlib#agent#GotoLine	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#GotoLine(world, selected) "{{{3$/;"	f
+tlib#agent#Help	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Help(world, selected) "{{{3$/;"	f
+tlib#agent#Home	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Home(world, selected) "{{{3$/;"	f
+tlib#agent#Input	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Input(world, selected) "{{{3$/;"	f
+tlib#agent#NewItem	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#NewItem(world, selected) "{{{3$/;"	f
+tlib#agent#Null	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Null(world, selected) "{{{3$/;"	f
+tlib#agent#OR	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#OR(world, selected) "{{{3$/;"	f
+tlib#agent#PageDown	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#PageDown(world, selected) "{{{3$/;"	f
+tlib#agent#PageUp	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#PageUp(world, selected) "{{{3$/;"	f
+tlib#agent#Paste	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Paste(world, selected) "{{{3$/;"	f
+tlib#agent#PopFilter	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#PopFilter(world, selected) "{{{3$/;"	f
+tlib#agent#PreviewLine	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#PreviewLine(world, selected) "{{{3$/;"	f
+tlib#agent#ReduceFilter	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ReduceFilter(world, selected) "{{{3$/;"	f
+tlib#agent#Reset	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Reset(world, selected) "{{{3$/;"	f
+tlib#agent#RestrictView	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#RestrictView(world, selected) "{{{3$/;"	f
+tlib#agent#Select	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Select(world, selected) "{{{3$/;"	f
+tlib#agent#SelectAll	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#SelectAll(world, selected) "{{{3$/;"	f
+tlib#agent#SelectDown	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#SelectDown(world, selected) "{{{3$/;"	f
+tlib#agent#SelectUp	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#SelectUp(world, selected) "{{{3$/;"	f
+tlib#agent#ShiftLeft	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ShiftLeft(world, selected) "{{{3$/;"	f
+tlib#agent#ShiftRight	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ShiftRight(world, selected) "{{{3$/;"	f
+tlib#agent#ShowInfo	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ShowInfo(world, selected)$/;"	f
+tlib#agent#Suspend	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Suspend(world, selected) "{{{3$/;"	f
+tlib#agent#SuspendToParentWindow	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#SuspendToParentWindow(world, selected) "{{{3$/;"	f
+tlib#agent#ToggleRestrictView	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ToggleRestrictView(world, selected) "{{{3$/;"	f
+tlib#agent#ToggleScrollbind	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ToggleScrollbind(world, selected) "{{{3$/;"	f
+tlib#agent#ToggleStickyList	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ToggleStickyList(world, selected) "{{{3$/;"	f
+tlib#agent#UnrestrictView	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#UnrestrictView(world, selected) "{{{3$/;"	f
+tlib#agent#Up	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Up(world, selected, ...) "{{{3$/;"	f
+tlib#agent#UpN	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#UpN(world, selected) "{{{3$/;"	f
+tlib#agent#ViewFile	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#ViewFile(world, selected) "{{{3$/;"	f
+tlib#agent#Wildcard	tlib_vim/autoload/tlib/agent.vim	/^function! tlib#agent#Wildcard(world, selected) "{{{3$/;"	f
+tlib#arg#Ex	tlib_vim/autoload/tlib/arg.vim	/^function! tlib#arg#Ex(arg, ...) "{{{3$/;"	f
+tlib#arg#Get	tlib_vim/autoload/tlib/arg.vim	/^function! tlib#arg#Get(n, var, ...) "{{{3$/;"	f
+tlib#arg#Key	tlib_vim/autoload/tlib/arg.vim	/^function! tlib#arg#Key(list, ...) "{{{3$/;"	f
+tlib#arg#Let	tlib_vim/autoload/tlib/arg.vim	/^function! tlib#arg#Let(list, ...) "{{{3$/;"	f
+tlib#arg#StringAsKeyArgs	tlib_vim/autoload/tlib/arg.vim	/^function! tlib#arg#StringAsKeyArgs(string, ...) "{{{1$/;"	f
+tlib#arg#StringAsKeyArgsEqual	tlib_vim/autoload/tlib/arg.vim	/^function! tlib#arg#StringAsKeyArgsEqual(string) "{{{1$/;"	f
+tlib#autocmdgroup#Init	tlib_vim/autoload/tlib/autocmdgroup.vim	/^function! tlib#autocmdgroup#Init() "{{{3$/;"	f
+tlib#balloon#Expr	tlib_vim/autoload/tlib/balloon.vim	/^function! tlib#balloon#Expr() "{{{3$/;"	f
+tlib#balloon#Register	tlib_vim/autoload/tlib/balloon.vim	/^function! tlib#balloon#Register(expr) "{{{3$/;"	f
+tlib#balloon#Remove	tlib_vim/autoload/tlib/balloon.vim	/^function! tlib#balloon#Remove(expr) "{{{3$/;"	f
+tlib#bitwise#AND	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#AND(num1, num2, ...) "{{{3$/;"	f
+tlib#bitwise#Add	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#Add(num1, num2, ...) "{{{3$/;"	f
+tlib#bitwise#Bits2Num	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#Bits2Num(bits, ...) "{{{3$/;"	f
+tlib#bitwise#Num2Bits	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#Num2Bits(num) "{{{3$/;"	f
+tlib#bitwise#OR	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#OR(num1, num2, ...) "{{{3$/;"	f
+tlib#bitwise#ShiftLeft	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#ShiftLeft(bits, n) "{{{3$/;"	f
+tlib#bitwise#ShiftRight	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#ShiftRight(bits, n) "{{{3$/;"	f
+tlib#bitwise#Sub	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#Sub(num1, num2, ...) "{{{3$/;"	f
+tlib#bitwise#XOR	tlib_vim/autoload/tlib/bitwise.vim	/^function! tlib#bitwise#XOR(num1, num2, ...) "{{{3$/;"	f
+tlib#buffer#BufDo	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#BufDo(exec) "{{{3$/;"	f
+tlib#buffer#CurrentByte	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#CurrentByte() "{{{3$/;"	f
+tlib#buffer#DeleteRange	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#DeleteRange(line1, line2) "{{{3$/;"	f
+tlib#buffer#DisableMRU	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#DisableMRU() "{{{3$/;"	f
+tlib#buffer#EnableMRU	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#EnableMRU() "{{{3$/;"	f
+tlib#buffer#Eval	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#Eval(buffer, code) "{{{3$/;"	f
+tlib#buffer#GetList	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#GetList(...)$/;"	f
+tlib#buffer#HighlightLine	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#HighlightLine(...) "{{{3$/;"	f
+tlib#buffer#InsertText	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#InsertText(text, ...) "{{{3$/;"	f
+tlib#buffer#InsertText0	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#InsertText0(text, ...) "{{{3$/;"	f
+tlib#buffer#KeepCursorPosition	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#KeepCursorPosition(cmd) "{{{3$/;"	f
+tlib#buffer#ReplaceRange	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#ReplaceRange(line1, line2, lines)$/;"	f
+tlib#buffer#ScratchEnd	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#ScratchEnd() "{{{3$/;"	f
+tlib#buffer#ScratchStart	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#ScratchStart() "{{{3$/;"	f
+tlib#buffer#Set	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#Set(buffer) "{{{3$/;"	f
+tlib#buffer#ViewLine	tlib_vim/autoload/tlib/buffer.vim	/^function! tlib#buffer#ViewLine(line, ...) "{{{3$/;"	f
+tlib#cache#Dir	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#Dir(...) "{{{3$/;"	f
+tlib#cache#Filename	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#Filename(type, ...) "{{{3$/;"	f
+tlib#cache#Get	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#Get(cfile, ...) "{{{3$/;"	f
+tlib#cache#ListFilesInCache	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#ListFilesInCache(...) "{{{3$/;"	f
+tlib#cache#MTime	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#MTime(cfile) "{{{3$/;"	f
+tlib#cache#MaybePurge	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#MaybePurge() "{{{3$/;"	f
+tlib#cache#Purge	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#Purge() "{{{3$/;"	f
+tlib#cache#Save	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#Save(cfile, dictionary) "{{{3$/;"	f
+tlib#cache#Value	tlib_vim/autoload/tlib/cache.vim	/^function! tlib#cache#Value(cfile, generator, ftime, ...) "{{{3$/;"	f
+tlib#char#Get	tlib_vim/autoload/tlib/char.vim	/^function! tlib#char#Get(...) "{{{3$/;"	f
+tlib#char#GetWithTimeout	tlib_vim/autoload/tlib/char.vim	/^function! tlib#char#GetWithTimeout(timeout, ...) "{{{3$/;"	f
+tlib#char#IsAvailable	tlib_vim/autoload/tlib/char.vim	/^function! tlib#char#IsAvailable() "{{{3$/;"	f
+tlib#cmd#BrowseOutput	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#BrowseOutput(command) "{{{3$/;"	f
+tlib#cmd#BrowseOutputWithCallback	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#BrowseOutputWithCallback(callback, command) "{{{3$/;"	f
+tlib#cmd#DefaultBrowseOutput	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#DefaultBrowseOutput(cmd) "{{{3$/;"	f
+tlib#cmd#OutputAsList	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#OutputAsList(command) "{{{3$/;"	f
+tlib#cmd#ParseScriptname	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#ParseScriptname(line) "{{{3$/;"	f
+tlib#cmd#Time	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#Time(cmd) "{{{3$/;"	f
+tlib#cmd#UseVertical	tlib_vim/autoload/tlib/cmd.vim	/^function! tlib#cmd#UseVertical(...) "{{{3$/;"	f
+tlib#comments#Comments	tlib_vim/autoload/tlib/comments.vim	/^function! tlib#comments#Comments(...)$/;"	f
+tlib#date#DiffInDays	tlib_vim/autoload/tlib/date.vim	/^function! tlib#date#DiffInDays(date, ...)$/;"	f
+tlib#date#Parse	tlib_vim/autoload/tlib/date.vim	/^function! tlib#date#Parse(date, ...) "{{{3$/;"	f
+tlib#date#SecondsSince1970	tlib_vim/autoload/tlib/date.vim	/^function! tlib#date#SecondsSince1970(date, ...) "{{{3$/;"	f
+tlib#dir#CD	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#CD(dir, ...) "{{{3$/;"	f
+tlib#dir#CanonicName	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#CanonicName(dirname) "{{{3$/;"	f
+tlib#dir#Ensure	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#Ensure(dir) "{{{3$/;"	f
+tlib#dir#MyRuntime	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#MyRuntime() "{{{3$/;"	f
+tlib#dir#NativeName	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#NativeName(dirname) "{{{3$/;"	f
+tlib#dir#PlainName	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#PlainName(dirname) "{{{3$/;"	f
+tlib#dir#Pop	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#Pop() "{{{3$/;"	f
+tlib#dir#Push	tlib_vim/autoload/tlib/dir.vim	/^function! tlib#dir#Push(dir, ...) "{{{3$/;"	f
+tlib#eval#FormatValue	tlib_vim/autoload/tlib/eval.vim	/^function! tlib#eval#FormatValue(value, ...) "{{{3$/;"	f
+tlib#file#Absolute	tlib_vim/autoload/tlib/file.vim	/^function! tlib#file#Absolute(filename, ...) "{{{3$/;"	f
+tlib#file#Canonic	tlib_vim/autoload/tlib/file.vim	/^function! tlib#file#Canonic(filename, ...) "{{{3$/;"	f
+tlib#file#Join	tlib_vim/autoload/tlib/file.vim	/^function! tlib#file#Join(filename_parts, ...) "{{{3$/;"	f
+tlib#file#Relative	tlib_vim/autoload/tlib/file.vim	/^function! tlib#file#Relative(filename, basedir) "{{{3$/;"	f
+tlib#file#Split	tlib_vim/autoload/tlib/file.vim	/^function! tlib#file#Split(filename) "{{{3$/;"	f
+tlib#file#With	tlib_vim/autoload/tlib/file.vim	/^function! tlib#file#With(fcmd, bcmd, files, ...) "{{{3$/;"	f
+tlib#fixes#Winpos	tlib_vim/autoload/tlib/fixes.vim	/^function! tlib#fixes#Winpos() "{{{3$/;"	f
+tlib#grep#Do	tlib_vim/autoload/tlib/grep.vim	/^function! tlib#grep#Do(cmd, rx, files) "{{{3$/;"	f
+tlib#grep#List	tlib_vim/autoload/tlib/grep.vim	/^function! tlib#grep#List(rx, files) "{{{3$/;"	f
+tlib#grep#LocList	tlib_vim/autoload/tlib/grep.vim	/^function! tlib#grep#LocList(rx, files) "{{{3$/;"	f
+tlib#grep#QuickFixList	tlib_vim/autoload/tlib/grep.vim	/^function! tlib#grep#QuickFixList(rx, files) "{{{3$/;"	f
+tlib#hash#Adler32	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#Adler32(chars) "{{{3$/;"	f
+tlib#hash#Adler32_tlib	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#Adler32_tlib(chars) "{{{3$/;"	f
+tlib#hash#Adler32_vim	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#Adler32_vim(chars) "{{{3$/;"	f
+tlib#hash#CRC32B	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#CRC32B(chars) "{{{3$/;"	f
+tlib#hash#CRC32B_ruby	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#CRC32B_ruby(chars) "{{{3$/;"	f
+tlib#hash#CRC32B_vim	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#CRC32B_vim(chars) "{{{3$/;"	f
+tlib#hash#CreateCrcTable	tlib_vim/autoload/tlib/hash.vim	/^function! tlib#hash#CreateCrcTable() "{{{3$/;"	f
+tlib#hook#Run	tlib_vim/autoload/tlib/hook.vim	/^function! tlib#hook#Run(hook, ...) "{{{3$/;"	f
+tlib#input#CommandSelect	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#CommandSelect(command, ...) "{{{3$/;"	f
+tlib#input#Dialog	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#Dialog(text, options, default) "{{{3$/;"	f
+tlib#input#Edit	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#Edit(name, value, callback, ...) "{{{3$/;"	f
+tlib#input#EditList	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#EditList(query, list, ...) "{{{3$/;"	f
+tlib#input#List	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#List(type, ...) "{{{3$/;"	f
+tlib#input#ListD	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#ListD(dict) "{{{3$/;"	f
+tlib#input#ListW	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#ListW(world, ...) "{{{3$/;"	f
+tlib#input#Resume	tlib_vim/autoload/tlib/input.vim	/^function! tlib#input#Resume(name, pick, bufnr) "{{{3$/;"	f
+tlib#list#All	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#All(list, expr) "{{{3$/;"	f
+tlib#list#Any	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Any(list, expr) "{{{3$/;"	f
+tlib#list#Compact	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Compact(list) "{{{3$/;"	f
+tlib#list#Find	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Find(list, filter, ...) "{{{3$/;"	f
+tlib#list#FindAll	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#FindAll(list, filter, ...) "{{{3$/;"	f
+tlib#list#Flatten	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Flatten(list) "{{{3$/;"	f
+tlib#list#Inject	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Inject(list, value, Function) "{{{3$/;"	f
+tlib#list#Remove	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Remove(list, element) "{{{3$/;"	f
+tlib#list#RemoveAll	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#RemoveAll(list, element) "{{{3$/;"	f
+tlib#list#ToDictionary	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#ToDictionary(list, default, ...) "{{{3$/;"	f
+tlib#list#Uniq	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Uniq(list, ...) "{{{3$/;"	f
+tlib#list#Zip	tlib_vim/autoload/tlib/list.vim	/^function! tlib#list#Zip(lists, ...) "{{{3$/;"	f
+tlib#map#PumAccept	tlib_vim/autoload/tlib/map.vim	/^function! tlib#map#PumAccept(key) "{{{3$/;"	f
+tlib#normal#WithRegister	tlib_vim/autoload/tlib/normal.vim	/^function! tlib#normal#WithRegister(cmd, ...) "{{{3$/;"	f
+tlib#notify#Echo	tlib_vim/autoload/tlib/notify.vim	/^function! tlib#notify#Echo(text, ...)$/;"	f
+tlib#notify#TrimMessage	tlib_vim/autoload/tlib/notify.vim	/^function! tlib#notify#TrimMessage(message) "{{{3$/;"	f
+tlib#number#ConvertBase	tlib_vim/autoload/tlib/number.vim	/^function! tlib#number#ConvertBase(num, base, ...) "{{{3$/;"	f
+tlib#paragraph#GetMetric	tlib_vim/autoload/tlib/paragraph.vim	/^function! tlib#paragraph#GetMetric() "{{{3$/;"	f
+tlib#paragraph#Move	tlib_vim/autoload/tlib/paragraph.vim	/^function! tlib#paragraph#Move(direction, count)$/;"	f
+tlib#persistent#Dir	tlib_vim/autoload/tlib/persistent.vim	/^function! tlib#persistent#Dir() "{{{3$/;"	f
+tlib#persistent#Filename	tlib_vim/autoload/tlib/persistent.vim	/^function! tlib#persistent#Filename(type, ...) "{{{3$/;"	f
+tlib#persistent#Get	tlib_vim/autoload/tlib/persistent.vim	/^function! tlib#persistent#Get(...) "{{{3$/;"	f
+tlib#persistent#MTime	tlib_vim/autoload/tlib/persistent.vim	/^function! tlib#persistent#MTime(cfile) "{{{3$/;"	f
+tlib#persistent#Save	tlib_vim/autoload/tlib/persistent.vim	/^function! tlib#persistent#Save(cfile, dictionary) "{{{3$/;"	f
+tlib#persistent#Value	tlib_vim/autoload/tlib/persistent.vim	/^function! tlib#persistent#Value(...) "{{{3$/;"	f
+tlib#progressbar#Display	tlib_vim/autoload/tlib/progressbar.vim	/^function! tlib#progressbar#Display(value, ...) "{{{3$/;"	f
+tlib#progressbar#Init	tlib_vim/autoload/tlib/progressbar.vim	/^function! tlib#progressbar#Init(max, ...) "{{{3$/;"	f
+tlib#progressbar#Restore	tlib_vim/autoload/tlib/progressbar.vim	/^function! tlib#progressbar#Restore() "{{{3$/;"	f
+tlib#rx#Escape	tlib_vim/autoload/tlib/rx.vim	/^function! tlib#rx#Escape(text, ...) "{{{3$/;"	f
+tlib#rx#EscapeReplace	tlib_vim/autoload/tlib/rx.vim	/^function! tlib#rx#EscapeReplace(text, ...) "{{{3$/;"	f
+tlib#rx#Suffixes	tlib_vim/autoload/tlib/rx.vim	/^function! tlib#rx#Suffixes(...) "{{{3$/;"	f
+tlib#scratch#CloseScratch	tlib_vim/autoload/tlib/scratch.vim	/^function! tlib#scratch#CloseScratch(keyargs, ...) "{{{3$/;"	f
+tlib#scratch#UseScratch	tlib_vim/autoload/tlib/scratch.vim	/^function! tlib#scratch#UseScratch(...) "{{{3$/;"	f
+tlib#signs#ClearAll	tlib_vim/autoload/tlib/signs.vim	/^function! tlib#signs#ClearAll(sign) "{{{3$/;"	f
+tlib#signs#ClearBuffer	tlib_vim/autoload/tlib/signs.vim	/^function! tlib#signs#ClearBuffer(sign, bufnr) "{{{3$/;"	f
+tlib#signs#Mark	tlib_vim/autoload/tlib/signs.vim	/^function! tlib#signs#Mark(sign, list) "{{{3$/;"	f
+tlib#string#Chomp	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#Chomp(string, ...) "{{{3$/;"	f
+tlib#string#Count	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#Count(string, rx) "{{{3$/;"	f
+tlib#string#Format	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#Format(template, dict) "{{{3$/;"	f
+tlib#string#Printf1	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#Printf1(format, string) "{{{3$/;"	f
+tlib#string#RemoveBackslashes	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#RemoveBackslashes(text, ...) "{{{3$/;"	f
+tlib#string#Strip	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#Strip(string) "{{{3$/;"	f
+tlib#string#TrimLeft	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#TrimLeft(string) "{{{3$/;"	f
+tlib#string#TrimRight	tlib_vim/autoload/tlib/string.vim	/^function! tlib#string#TrimRight(string) "{{{3$/;"	f
+tlib#syntax#Collect	tlib_vim/autoload/tlib/syntax.vim	/^function! tlib#syntax#Collect() "{{{3$/;"	f
+tlib#syntax#Names	tlib_vim/autoload/tlib/syntax.vim	/^function! tlib#syntax#Names(...) "{{{3$/;"	f
+tlib#sys#ConvertPath	tlib_vim/autoload/tlib/sys.vim	/^function! tlib#sys#ConvertPath(converter, filename) "{{{3$/;"	f
+tlib#sys#FileArgs	tlib_vim/autoload/tlib/sys.vim	/^function! tlib#sys#FileArgs(cmd, files) "{{{3$/;"	f
+tlib#sys#GetCmd	tlib_vim/autoload/tlib/sys.vim	/^function! tlib#sys#GetCmd(cmd) "{{{3$/;"	f
+tlib#sys#IsCygwinBin	tlib_vim/autoload/tlib/sys.vim	/^function! tlib#sys#IsCygwinBin(cmd) "{{{3$/;"	f
+tlib#sys#IsExecutable	tlib_vim/autoload/tlib/sys.vim	/^function! tlib#sys#IsExecutable(cmd, ...) "{{{3$/;"	f
+tlib#sys#MaybeUseCygpath	tlib_vim/autoload/tlib/sys.vim	/^function! tlib#sys#MaybeUseCygpath(cmd) "{{{3$/;"	f
+tlib#tab#BufMap	tlib_vim/autoload/tlib/tab.vim	/^function! tlib#tab#BufMap() "{{{3$/;"	f
+tlib#tab#Set	tlib_vim/autoload/tlib/tab.vim	/^function! tlib#tab#Set(tabnr) "{{{3$/;"	f
+tlib#tab#TabWinNr	tlib_vim/autoload/tlib/tab.vim	/^function! tlib#tab#TabWinNr(buffer) "{{{3$/;"	f
+tlib#tag#Collect	tlib_vim/autoload/tlib/tag.vim	/^function! tlib#tag#Collect(constraints, ...) "{{{3$/;"	f
+tlib#tag#Format	tlib_vim/autoload/tlib/tag.vim	/^function! tlib#tag#Format(tag) "{{{3$/;"	f
+tlib#tag#Retrieve	tlib_vim/autoload/tlib/tag.vim	/^function! tlib#tag#Retrieve(rx, ...) "{{{3$/;"	f
+tlib#textobjects#Init	tlib_vim/autoload/tlib/textobjects.vim	/^function! tlib#textobjects#Init() "{{{3$/;"	f
+tlib#textobjects#StandardParagraph	tlib_vim/autoload/tlib/textobjects.vim	/^function! tlib#textobjects#StandardParagraph() "{{{3$/;"	f
+tlib#time#Diff	tlib_vim/autoload/tlib/time.vim	/^function! tlib#time#Diff(a, b, ...) "{{{3$/;"	f
+tlib#time#DiffMSecs	tlib_vim/autoload/tlib/time.vim	/^function! tlib#time#DiffMSecs(a, b, ...) "{{{3$/;"	f
+tlib#time#MSecs	tlib_vim/autoload/tlib/time.vim	/^function! tlib#time#MSecs() "{{{3$/;"	f
+tlib#time#Now	tlib_vim/autoload/tlib/time.vim	/^function! tlib#time#Now() "{{{3$/;"	f
+tlib#type#IsDictionary	tlib_vim/autoload/tlib/type.vim	/^function! tlib#type#IsDictionary(expr)$/;"	f
+tlib#type#IsFuncref	tlib_vim/autoload/tlib/type.vim	/^function! tlib#type#IsFuncref(expr)$/;"	f
+tlib#type#IsList	tlib_vim/autoload/tlib/type.vim	/^function! tlib#type#IsList(expr)$/;"	f
+tlib#type#IsNumber	tlib_vim/autoload/tlib/type.vim	/^function! tlib#type#IsNumber(expr)$/;"	f
+tlib#type#IsString	tlib_vim/autoload/tlib/type.vim	/^function! tlib#type#IsString(expr)$/;"	f
+tlib#url#Decode	tlib_vim/autoload/tlib/url.vim	/^function! tlib#url#Decode(url) "{{{3$/;"	f
+tlib#url#DecodeChar	tlib_vim/autoload/tlib/url.vim	/^function! tlib#url#DecodeChar(char) "{{{3$/;"	f
+tlib#url#Encode	tlib_vim/autoload/tlib/url.vim	/^function! tlib#url#Encode(url, ...) "{{{3$/;"	f
+tlib#url#EncodeChar	tlib_vim/autoload/tlib/url.vim	/^function! tlib#url#EncodeChar(char) "{{{3$/;"	f
+tlib#var#EGet	tlib_vim/autoload/tlib/var.vim	/^function! tlib#var#EGet(var, namespace, ...) "{{{3$/;"	f
+tlib#var#Get	tlib_vim/autoload/tlib/var.vim	/^function! tlib#var#Get(var, namespace, ...) "{{{3$/;"	f
+tlib#var#Let	tlib_vim/autoload/tlib/var.vim	/^function! tlib#var#Let(name, val) "{{{3$/;"	f
+tlib#var#List	tlib_vim/autoload/tlib/var.vim	/^function! tlib#var#List(rx, ...) "{{{3$/;"	f
+tlib#vcs#Diff	tlib_vim/autoload/tlib/vcs.vim	/^function! tlib#vcs#Diff(filename, ...) "{{{3$/;"	f
+tlib#vcs#Executable	tlib_vim/autoload/tlib/vcs.vim	/^function! tlib#vcs#Executable(type) "{{{3$/;"	f
+tlib#vcs#FindVCS	tlib_vim/autoload/tlib/vcs.vim	/^function! tlib#vcs#FindVCS(filename) "{{{3$/;"	f
+tlib#vcs#Ls	tlib_vim/autoload/tlib/vcs.vim	/^function! tlib#vcs#Ls(...) "{{{3$/;"	f
+tlib#vim#CopyFunction	tlib_vim/autoload/tlib/vim.vim	/^function! tlib#vim#CopyFunction(old, new, ...) "{{{3$/;"	f
+tlib#vim#Maximize	tlib_vim/autoload/tlib/vim.vim	/^    fun! tlib#vim#Maximize(fullscreen) "{{{3$/;"	f
+tlib#vim#RestoreWindow	tlib_vim/autoload/tlib/vim.vim	/^    function! tlib#vim#RestoreWindow() "{{{3$/;"	f
+tlib#win#GetLayout	tlib_vim/autoload/tlib/win.vim	/^function! tlib#win#GetLayout(...) "{{{3$/;"	f
+tlib#win#List	tlib_vim/autoload/tlib/win.vim	/^function! tlib#win#List() "{{{3$/;"	f
+tlib#win#Set	tlib_vim/autoload/tlib/win.vim	/^function! tlib#win#Set(winnr) "{{{3$/;"	f
+tlib#win#SetLayout	tlib_vim/autoload/tlib/win.vim	/^function! tlib#win#SetLayout(layout) "{{{3$/;"	f
+tlib#win#Width	tlib_vim/autoload/tlib/win.vim	/^function! tlib#win#Width(wnr) "{{{3$/;"	f
+tlib#win#WinDo	tlib_vim/autoload/tlib/win.vim	/^function! tlib#win#WinDo(ex) "{{{3$/;"	f
+tovl#scratch_buffer#GetContents	vim-addon-mw-utils/autoload/tovl/scratch_buffer.vim	/^function! tovl#scratch_buffer#GetContents()$/;"	f
+tovl#scratch_buffer#Help	vim-addon-mw-utils/autoload/tovl/scratch_buffer.vim	/^function! tovl#scratch_buffer#Help()$/;"	f
+tovl#scratch_buffer#KeepIntactLineNr	vim-addon-mw-utils/autoload/tovl/scratch_buffer.vim	/^function! tovl#scratch_buffer#KeepIntactLineNr()$/;"	f
+tovl#scratch_buffer#ScratchBuffer	vim-addon-mw-utils/autoload/tovl/scratch_buffer.vim	/^function! tovl#scratch_buffer#ScratchBuffer(opts)$/;"	f
+tovl#scratch_buffer#Write	vim-addon-mw-utils/autoload/tovl/scratch_buffer.vim	/^function! tovl#scratch_buffer#Write()$/;"	f
+tovl#ui#filter_list#ListTest	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^fun! tovl#ui#filter_list#ListTest()$/;"	f
+tovl#ui#filter_list#ListTestGotoLineCurrentBuf	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^fun! tovl#ui#filter_list#ListTestGotoLineCurrentBuf()$/;"	f
+tovl#ui#filter_list#ListView	vim-addon-mw-utils/autoload/tovl/ui/filter_list.vim	/^fun! tovl#ui#filter_list#ListView(opts)$/;"	f
+uniq	vim-rails/autoload/rails.vim	/^function! s:uniq(list) abort$/;"	f
+viewEdit	vim-rails/autoload/rails.vim	/^function! s:viewEdit(cmd,...)$/;"	f
+viewList	vim-rails/autoload/rails.vim	/^function! s:viewList(A,L,P)$/;"	f
+warn	vim-bundler/plugin/bundler.vim	/^function! s:warn(str)$/;"	f
+warn	vim-rails/autoload/rails.vim	/^function! s:warn(str)$/;"	f

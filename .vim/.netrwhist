@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/zigloo99/Developer/sum3d-configuration/.git'
+let g:netrw_dirhist_2='/Volumes/Employees-1/Matt Stratton/Apps/Sum3D/Stock/Premilled/Generator/.git'
+let g:netrw_dirhist_3='/Users/zigloo99/.dotfiles/.git'
+let g:netrw_dirhist_4='/Users/zigloo99/.oh-my-zsh'
+let g:netrw_dirhist_5='/Users/zigloo99/.vim/bundle'
+let g:netrw_dirhist_6='/Users/zigloo99/.vim/bundle/badwolf'
+let g:netrw_dirhist_7='/Users/zigloo99/.oh-my-zsh'

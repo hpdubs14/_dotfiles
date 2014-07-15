@@ -1,13 +1,12 @@
 " set at launch to configure external tools exactly once
-call pathogen#infect() " use pathogen
+execute pathogen#infect()
 set nocompatible
 
 " Use ack instead of grep
 set grepprg=ack
 set backspace=indent,eol,start
 " set colon to semi-colon for commands speed
-nnoremap ; : 
-
+nnoremap ; :
 " Colors {{{
 syntax on
 colorscheme badwolf
@@ -67,16 +66,15 @@ nnoremap <leader>ez :vsp ~/.zshrc<CR>
 nnoremap <leader>sv $MYVIMRC<CR>
 nnoremap <leader>l :call ToggleNumber()<CR>
 " }}}
-            
-
+" Backups {{{
 " set backup dir
 set backup
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
-
-
+" }}}
+" Custom Functions {{{
 " toggle between number and relativenumber
 function! ToggleNumber()
     if(&relativenumber == 1)
@@ -96,5 +94,5 @@ function! <SID>StripTrailingWhitespaces()
     let @/=_s
     call cursor(l, c)
 endfunction
-
+" }}}
 " vim:foldmethod=marker:foldlevel=0
